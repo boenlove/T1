@@ -23,7 +23,7 @@
     <BufferedLabelPointer>-1</BufferedLabelPointer>
     <StdPack>12</StdPack>
     <LabelType>ICS</LabelType>
-    <BroadcastCode>84518644</BroadcastCode>
+    <BroadcastCode>84594612</BroadcastCode>
     <CurrentLotNBR>
     </CurrentLotNBR>
     <StartTime>10/11/2018 11:02:16 AM</StartTime>
@@ -51,7 +51,7 @@
     <LogContainment>False</LogContainment>
   </ApplicationState>
   <Properties>
-    <MachineName>T1XX_U1</MachineName>
+    <MachineName>T1XX_LE1</MachineName>
     <Plant>23</Plant>
     <LineNumber>3406</LineNumber>
     <Department>2341</Department>

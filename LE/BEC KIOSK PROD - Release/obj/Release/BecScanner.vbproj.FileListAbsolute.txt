@@ -81,3 +81,31 @@ D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.SetCount.resou
 D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.vbproj.GenerateResource.Cache
 D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.exe.manifest
 D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.application
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\BecKiosk V1.6LE- PRD.exe.config
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\BecKiosk V1.6LE- PRD.exe.manifest
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\BecKiosk V1.6LE- PRD.application
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\BecKiosk V1.6LE- PRD.exe
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\BecKiosk V1.6LE- PRD.XmlSerializers.dll
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\BecKiosk V1.6LE- PRD.pdb
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\BecKiosk V1.6LE- PRD.xml
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\EntityFramework.dll
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\EntityFramework.SqlServer.dll
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\Office.dll
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\Oracle.ManagedDataAccess.dll
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\EntityFramework.xml
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\EntityFramework.SqlServer.xml
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\bin\Office.xml
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecScanner.DeleteSchedule.resources
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecScanner.ExceptionsHandler.resources
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecScanner.frmContainmentLog.resources
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecScanner.frmMain.resources
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecScanner.MessageSender.resources
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecScanner.SetCount.resources
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecScanner.vbproj.GenerateResource.Cache
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecKiosk V1.6LE- PRD.exe.manifest
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecKiosk V1.6LE- PRD.application
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecKiosk V1.6LE- PRD.exe
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecKiosk V1.6LE- PRD.xml
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecKiosk V1.6LE- PRD.pdb
+D:\Repository\T1\LE\BEC KIOSK PROD - Release\obj\Release\BecKiosk V1.6LE- PRD.XmlSerializers.dll

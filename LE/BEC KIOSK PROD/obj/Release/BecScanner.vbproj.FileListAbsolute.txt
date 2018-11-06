@@ -52,3 +52,31 @@ D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.exe
 D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.xml
 D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.pdb
 D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.XmlSerializers.dll
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\BecKiosk V1.6LE Test.exe.config
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\BecKiosk V1.6LE Test.exe.manifest
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\BecKiosk V1.6LE Test.application
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\BecKiosk V1.6LE Test.exe
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\BecKiosk V1.6LE Test.XmlSerializers.dll
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\BecKiosk V1.6LE Test.pdb
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\BecKiosk V1.6LE Test.xml
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\EntityFramework.dll
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\EntityFramework.SqlServer.dll
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\Office.dll
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\Oracle.ManagedDataAccess.dll
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\EntityFramework.xml
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\EntityFramework.SqlServer.xml
+D:\Repository\T1\LE\BEC KIOSK PROD\bin\Office.xml
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecScanner.DeleteSchedule.resources
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecScanner.ExceptionsHandler.resources
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecScanner.frmContainmentLog.resources
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecScanner.frmMain.resources
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecScanner.MessageSender.resources
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecScanner.SetCount.resources
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecScanner.vbproj.GenerateResource.Cache
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecKiosk V1.6LE Test.exe.manifest
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecKiosk V1.6LE Test.application
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecKiosk V1.6LE Test.exe
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecKiosk V1.6LE Test.xml
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecKiosk V1.6LE Test.pdb
+D:\Repository\T1\LE\BEC KIOSK PROD\obj\Release\BecKiosk V1.6LE Test.XmlSerializers.dll

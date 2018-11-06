@@ -3346,18 +3346,18 @@ exithere:
                     End Try
 
                     If ub > 0 Then
-                        'jerry 
-                        For i = 0 To ub
+                        'jerry for LE
+                        'For i = 0 To ub
 
-                            If goappstate.Scans(i) = Stx Then
-                                If Not Me.chkScanOut.Checked Then
-                                    MsgBox("This BEC has already been scanned into this container.", MsgBoxStyle.ApplicationModal)
-                                    GoTo exithere
-                                End If
-                                found = True
-                                Exit For
-                            End If
-                        Next
+                        '    If goappstate.Scans(i) = Stx Then
+                        '        If Not Me.chkScanOut.Checked Then
+                        '            MsgBox("This BEC has already been scanned into this container.", MsgBoxStyle.ApplicationModal)
+                        '            GoTo exithere
+                        '        End If
+                        '        found = True
+                        '        Exit For
+                        '    End If
+                        'Next
 
                         '2 remove 
                         If Me.chkScanOut.Checked Then

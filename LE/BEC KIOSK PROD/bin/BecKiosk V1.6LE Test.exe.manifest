@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="BecKiosk SR PORT V1.6a.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="BecKiosk V1.6LE Test.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="aptiv_logo_r0Q_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="BecKiosk SR PORT V1.6a" version="1.0.6879.32282" language="neutral" processorArchitecture="msil" />
-    <commandLine file="BecKiosk SR PORT V1.6a.exe" parameters="" />
+    <assemblyIdentity name="BecKiosk V1.6LE Test" version="1.0.6884.29708" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BecKiosk V1.6LE Test.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -53,26 +53,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BecKiosk SR PORT V1.6a.exe" size="560128">
-      <assemblyIdentity name="BecKiosk SR PORT V1.6a" version="1.0.6879.32282" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BecKiosk V1.6LE Test.exe" size="559616">
+      <assemblyIdentity name="BecKiosk V1.6LE Test" version="1.0.6884.29708" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xfcHE9wrGhKbxLIjK8kibevbfqWFln9gjONljsD2CAs=</dsig:DigestValue>
+        <dsig:DigestValue>DrmSsl6TypwDlOj05WL380iRfYfTv59Swm5XioySYC8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BecKiosk SR PORT V1.6a.XmlSerializers.dll" size="187392">
-      <assemblyIdentity name="BecKiosk SR PORT V1.6a.XmlSerializers" version="1.0.6879.32282" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BecKiosk V1.6LE Test.XmlSerializers.dll" size="187392">
+      <assemblyIdentity name="BecKiosk V1.6LE Test.XmlSerializers" version="1.0.6884.29708" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>S/qVyKlCMAebCF5I487AjhcoJ42ECAYU89povOq87c0=</dsig:DigestValue>
+        <dsig:DigestValue>eggjZ6qLZrL51vXFuC4ZHzLurGXRWp0hoAOxkwcFKW8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -163,7 +163,7 @@
       <dsig:DigestValue>GVQ2Yx5HMVnhjRnU2DgQk1AhdHOQQ6YmB96/EloNoNc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="BecKiosk SR PORT V1.6a.exe.config" size="5260">
+  <file name="BecKiosk V1.6LE Test.exe.config" size="5260">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
