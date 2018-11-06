@@ -1,0 +1,57 @@
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\BECDATALOOKUP.dll
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\BECDATALOOKUP.pdb
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\BECDATALOOKUP.xml
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.BECDATALOOKUP.resources
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.Global.resources
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.dll
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.xml
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.pdb
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\EntityFramework.dll
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\Oracle.ManagedDataAccess.dll
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\EntityFramework.xml
+C:\inetpub\wwwroot\mfg\BECDATALOOKUP\bin\EntityFramework.SqlServer.xml
+D:\test\BKUP\411\BECDATALOOKUP\bin\BECDATALOOKUP.dll
+D:\test\BKUP\411\BECDATALOOKUP\bin\BECDATALOOKUP.pdb
+D:\test\BKUP\411\BECDATALOOKUP\bin\BECDATALOOKUP.xml
+D:\test\BKUP\411\BECDATALOOKUP\bin\EntityFramework.dll
+D:\test\BKUP\411\BECDATALOOKUP\bin\EntityFramework.SqlServer.dll
+D:\test\BKUP\411\BECDATALOOKUP\bin\Oracle.ManagedDataAccess.dll
+D:\test\BKUP\411\BECDATALOOKUP\bin\EntityFramework.xml
+D:\test\BKUP\411\BECDATALOOKUP\bin\EntityFramework.SqlServer.xml
+D:\test\BKUP\411\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.vbprojResolveAssemblyReference.cache
+D:\test\BKUP\411\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.BECDATALOOKUP.resources
+D:\test\BKUP\411\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.Global.resources
+D:\test\BKUP\411\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.vbproj.GenerateResource.Cache
+D:\test\BKUP\411\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.dll
+D:\test\BKUP\411\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.xml
+D:\test\BKUP\411\BECDATALOOKUP\obj\Debug\BECDATALOOKUP.pdb
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\BECDATALOOKUP.dll
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\BECDATALOOKUP.pdb
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\BECDATALOOKUP.xml
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\EntityFramework.dll
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\EntityFramework.SqlServer.dll
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\Oracle.ManagedDataAccess.dll
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\EntityFramework.xml
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\bin\EntityFramework.SqlServer.xml
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\obj\Debug\BECDATALOOKUP.vbprojResolveAssemblyReference.cache
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\obj\Debug\BECDATALOOKUP.BECDATALOOKUP.resources
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\obj\Debug\BECDATALOOKUP.Global.resources
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\obj\Debug\BECDATALOOKUP.vbproj.GenerateResource.Cache
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\obj\Debug\BECDATALOOKUP.dll
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\obj\Debug\BECDATALOOKUP.xml
+D:\test\work\BECDATALOOKUP\BECDataLookup_RFC100-03-124001 - Oracle Data Managed only\obj\Debug\BECDATALOOKUP.pdb
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\bin\BECDATALOOKUP.dll
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\bin\BECDATALOOKUP.pdb
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\bin\BECDATALOOKUP.xml
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\bin\EntityFramework.dll
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\bin\EntityFramework.xml
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\obj\Debug\BECDATALOOKUP.BECDATALOOKUP.resources
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\obj\Debug\BECDATALOOKUP.Global.resources
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\obj\Debug\BECDATALOOKUP.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\obj\Debug\BECDATALOOKUP.dll
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\obj\Debug\BECDATALOOKUP.xml
+C:\inetpub\wwwroot\mfg\BECDataLookup_RFC100-03-124001\obj\Debug\BECDATALOOKUP.pdb
