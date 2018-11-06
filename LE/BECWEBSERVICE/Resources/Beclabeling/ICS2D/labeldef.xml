@@ -1,0 +1,85 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly'>
+		<s:attribute type='MacroDelimeter'/>
+		<s:attribute type='Macro'/>
+		<s:attribute type='MacroDescription'/>
+		<s:attribute type='MacroValue'/>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+	<s:AttributeType name='MacroDelimeter' rs:number='1' rs:nullable='true'
+		 rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+	<s:AttributeType name='Macro' rs:number='2' rs:nullable='true' rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+	<s:AttributeType name='MacroDescription' rs:number='3' rs:nullable='true' rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+	<s:AttributeType name='MacroValue' rs:number='4' rs:nullable='true' rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+</s:Schema>
+<rs:data>
+	<z:row MacroDelimeter='%' Macro='BC' MacroDescription='Box Count' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CNTR' MacroDescription='PlantLocation' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CS' MacroDescription='Check Sum' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='COLOR' MacroDescription='Color' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CNAME' MacroDescription='Customer Name' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CADDR' MacroDescription='Customer Street Address' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CCITY' MacroDescription='Customer City' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CSTATE' MacroDescription='Customer State' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CZIP' MacroDescription='Customer Zip Code' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='DLN' MacroDescription='Delivery Location' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='DEPT' MacroDescription='Department Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='DESTINATION' MacroDescription='Destination' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='DESC' MacroDescription='Description' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='ECL' MacroDescription='ECL' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='BCL' MacroDescription='2P  plus ECL for barcode' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='CNTRP' MacroDescription='Container Type' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='GW' MacroDescription='Gross weight' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='LOT_NBR' MacroDescription='Lot Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='NET_WEIGHT' MacroDescription='Net Weight' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='NWM' MacroDescription='Net Weight and Unit of Measure' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='NW' MacroDescription='Net Weight and Unit of Measure' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PCD' MacroDescription='Package Code' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR' MacroDescription='Part Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PKGID' MacroDescription='Package ID' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='P12Z' MacroDescription='Segment 12Z' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='P13Z' MacroDescription='Segment 13Z' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='P14Z' MacroDescription='Segment 14Z' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='P15Z' MacroDescription='Segment 15Z' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='P16Z' MacroDescription='Segment 16Z' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='P17Z' MacroDescription='Segment 17Z' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='QTY' MacroDescription='Quantity' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='QOM' MacroDescription='Quantity Unit Of Measure' MacroValue='PCS' /> 
+	<z:row MacroDelimeter='%' Macro='RSD' MacroDescription='Reference Sequence Data ID' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='RSN' MacroDescription='Reference Sequence Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR' MacroDescription='Serial Number all digits' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SER8' MacroDescription='Serial Number 8 digits' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SER9' MacroDescription='Serial Number 9 digits' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SER9A' MacroDescription='Serial Number 9 digits' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SHIP_DATE' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SNAME' MacroDescription='Supplier Name' MacroValue='DELPHI PACKARD ELECTRIC SYSTEMS' /> 
+	<z:row MacroDelimeter='%' Macro='SADDR' MacroDescription='Supplier Address' MacroValue='925 Industrial Park' />
+	<z:row MacroDelimeter='%' Macro='SCITY' MacroDescription='Supplier City' MacroValue='Brookhaven' /> 
+	<z:row MacroDelimeter='%' Macro='SSTATE' MacroDescription='Supplier State' MacroValue='MS' /> 
+	<z:row MacroDelimeter='%' Macro='SZIP' MacroDescription='Supplier Zip Code' MacroValue='39601' /> 
+	<z:row MacroDelimeter='%' Macro='SCOUNTRY' MacroDescription='Supplier Country' MacroValue='USA' /> 
+	<z:row MacroDelimeter='%' Macro='SD' MacroDescription='Supplier DUNS Number' MacroValue='084668367' /> 
+	<z:row MacroDelimeter='%' Macro='GWM' MacroDescription='Gross Weight and Unit Of Measure' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='ST' MacroDescription='Serial Type' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='CNTRS' MacroDescription='Destination for Stub' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='HDR' MacroDescription='2D Message Header' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='SEP' MacroDescription='2D Data separator' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='TRL' MacroDescription='2D Message Trailer' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='BCT' MacroDescription='Box Count no container' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='QTYPAC' MacroDescription='QTY PER PACK' MacroValue='' /> 
+
+</rs:data>
+</xml>

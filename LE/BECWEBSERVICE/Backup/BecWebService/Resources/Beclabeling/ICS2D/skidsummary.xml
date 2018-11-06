@@ -1,0 +1,69 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly'>
+		<s:attribute type='MacroDelimeter'/>
+		<s:attribute type='Macro'/>
+		<s:attribute type='MacroDescription'/>
+		<s:attribute type='MacroValue'/>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+	<s:AttributeType name='MacroDelimeter' rs:number='1' rs:nullable='true'
+		 rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+	<s:AttributeType name='Macro' rs:number='2' rs:nullable='true' rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+	<s:AttributeType name='MacroDescription' rs:number='3' rs:nullable='true' rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+	<s:AttributeType name='MacroValue' rs:number='4' rs:nullable='true' rs:write='true'>
+		<s:datatype dt:type='string' dt:maxLength='50'/>
+	</s:AttributeType>
+</s:Schema>
+<rs:data>
+	<z:row MacroDelimeter='%' Macro='CNTR' MacroDescription='PlantLocation' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='LINE' MacroDescription='LineId' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='SKIDID' MacroDescription='LineId' MacroValue='' /> 
+	<z:row MacroDelimeter='%' Macro='SERNBR1' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR2' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR3' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR4' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR5' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR6' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR7' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR8' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR9' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR10' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR11' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SERNBR12' MacroDescription='Serial Number' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE1' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE2' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE3' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE4' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE5' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE6' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE7' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE8' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE9' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE10' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE11' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='END_DATE12' MacroDescription='End Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='SHIP_DATE' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR1' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR2' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR3' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR4' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR5' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR6' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR7' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR8' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR9' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR10' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR11' MacroDescription='Ship Date' MacroValue=''/>
+	<z:row MacroDelimeter='%' Macro='PNBR12' MacroDescription='Ship Date' MacroValue=''/>
+</rs:data>
+</xml>
