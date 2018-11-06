@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <ApplicationState>
+    <InProgress>False</InProgress>
+    <NextAction>Choose Container Type</NextAction>
+    <ContainerType>Returnable</ContainerType>
+    <DelphiPartNumber>
+    </DelphiPartNumber>
+    <CustomerPartNumber>
+    </CustomerPartNumber>
+    <DestinationCode>
+    </DestinationCode>
+    <MESPartID>534</MESPartID>
+    <ECL>
+    </ECL>
+    <PackageCode>
+    </PackageCode>
+    <NumberOfBoxes>0</NumberOfBoxes>
+    <NumberOfLayersPerBox>0</NumberOfLayersPerBox>
+    <NumberPkgsPerSkid>0</NumberPkgsPerSkid>
+    <SkidPkgCount>0</SkidPkgCount>
+    <BufferedLabelCount>0</BufferedLabelCount>
+    <BufferedLabelPointer>-1</BufferedLabelPointer>
+    <StdPack>20</StdPack>
+    <LabelType>ICS</LabelType>
+    <BroadcastCode>23231596</BroadcastCode>
+    <CurrentLotNBR>
+    </CurrentLotNBR>
+    <StartTime>6/9/2018 6:09:36 PM</StartTime>
+    <EndTime>
+    </EndTime>
+    <IsLastBox>False</IsLastBox>
+    <LastScan>
+    </LastScan>
+    <Location>
+    </Location>
+    <ProductionRunNbr>38835</ProductionRunNbr>
+    <SystemFlag>
+    </SystemFlag>
+    <TotalPartsScanned>0</TotalPartsScanned>
+    <CustomerCode>
+    </CustomerCode>
+    <ActionType>PROCESS_BROADCASTCODE</ActionType>
+    <DelayBetweenScans>2</DelayBetweenScans>
+    <LastSerialNbr>1881281580:6/7/2018 9:18:28 AM</LastSerialNbr>
+    <ScheduleRequired>False</ScheduleRequired>
+    <becseries>
+    </becseries>
+    <scheduleID>419895</scheduleID>
+    <InspectionTypes>GP-12;In-process;Off-line;Omni Test;</InspectionTypes>
+    <LogContainment>False</LogContainment>
+  </ApplicationState>
+  <Properties>
+    <MachineName>P23_BL5</MachineName>
+    <Plant>23</Plant>
+    <LineNumber>3406</LineNumber>
+    <Department>02343</Department>
+    <AdminCode>ttt</AdminCode>
+    <ExceptionsAdminCode>ttt</ExceptionsAdminCode>
+    <DuplicateFoundCode>p23quality</DuplicateFoundCode>
+  </Properties>
+</Configuration>

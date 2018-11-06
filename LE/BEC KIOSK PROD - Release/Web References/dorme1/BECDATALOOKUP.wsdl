@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/BecWebService/BecWebService" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/BecWebService/BecWebService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/BecWebService/BecWebService">
+      <s:element name="GetDate">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDateResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetrieveReleaseInformation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="machineName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="mesPartID" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetrieveReleaseInformationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetrieveReleaseInformationResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentLotNbr">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psMachineName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentLotNbrResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrentLotNbrResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMTMSLocation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psPartNbr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMTMSLocationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMTMSLocationResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPackDetailsSat">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="broadCastCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ECL" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPackDetailsSatResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStandardPackDetailsSatResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPackDetailsMold">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="broadCastCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ECL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="systemFlag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPackDetailsMoldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStandardPackDetailsMoldResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FindBroadcastCodeInCntrs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="broadCastCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FindBroadcastCodeInCntrsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FindBroadcastCodeInCntrsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessBroadcastCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="broadCastCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dept" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Result" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ContainerType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LabelType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessBroadcastCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProcessBroadcastCodeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlagAllBECsInCntrOK2Relabel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StdPackID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlagAllBECsInCntrOK2RelabelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FlagAllBECsInCntrOK2RelabelResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlagBECOK2Relabel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="broadCastCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlagBECOK2RelabelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FlagBECOK2RelabelResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dateTime" type="s:dateTime" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDate" />
+  </wsdl:message>
+  <wsdl:message name="GetDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReleaseInformationSoapIn">
+    <wsdl:part name="parameters" element="tns:RetrieveReleaseInformation" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReleaseInformationSoapOut">
+    <wsdl:part name="parameters" element="tns:RetrieveReleaseInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentLotNbrSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrentLotNbr" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentLotNbrSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrentLotNbrResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMTMSLocationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMTMSLocation" />
+  </wsdl:message>
+  <wsdl:message name="GetMTMSLocationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMTMSLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSatSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStandardPackDetailsSat" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSatSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStandardPackDetailsSatResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsMoldSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStandardPackDetailsMold" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsMoldSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStandardPackDetailsMoldResponse" />
+  </wsdl:message>
+  <wsdl:message name="FindBroadcastCodeInCntrsSoapIn">
+    <wsdl:part name="parameters" element="tns:FindBroadcastCodeInCntrs" />
+  </wsdl:message>
+  <wsdl:message name="FindBroadcastCodeInCntrsSoapOut">
+    <wsdl:part name="parameters" element="tns:FindBroadcastCodeInCntrsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ProcessBroadcastCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:ProcessBroadcastCode" />
+  </wsdl:message>
+  <wsdl:message name="ProcessBroadcastCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcessBroadcastCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="FlagAllBECsInCntrOK2RelabelSoapIn">
+    <wsdl:part name="parameters" element="tns:FlagAllBECsInCntrOK2Relabel" />
+  </wsdl:message>
+  <wsdl:message name="FlagAllBECsInCntrOK2RelabelSoapOut">
+    <wsdl:part name="parameters" element="tns:FlagAllBECsInCntrOK2RelabelResponse" />
+  </wsdl:message>
+  <wsdl:message name="FlagBECOK2RelabelSoapIn">
+    <wsdl:part name="parameters" element="tns:FlagBECOK2Relabel" />
+  </wsdl:message>
+  <wsdl:message name="FlagBECOK2RelabelSoapOut">
+    <wsdl:part name="parameters" element="tns:FlagBECOK2RelabelResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDateHttpGetIn" />
+  <wsdl:message name="GetDateHttpGetOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReleaseInformationHttpGetIn">
+    <wsdl:part name="machineName" type="s:string" />
+    <wsdl:part name="mesPartID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReleaseInformationHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentLotNbrHttpGetIn">
+    <wsdl:part name="psMachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentLotNbrHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMTMSLocationHttpGetIn">
+    <wsdl:part name="psPartNbr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMTMSLocationHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSatHttpGetIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSatHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsMoldHttpGetIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+    <wsdl:part name="systemFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsMoldHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="FindBroadcastCodeInCntrsHttpGetIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FindBroadcastCodeInCntrsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="FlagAllBECsInCntrOK2RelabelHttpGetIn">
+    <wsdl:part name="StdPackID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FlagAllBECsInCntrOK2RelabelHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="FlagBECOK2RelabelHttpGetIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FlagBECOK2RelabelHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetDateHttpPostIn" />
+  <wsdl:message name="GetDateHttpPostOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReleaseInformationHttpPostIn">
+    <wsdl:part name="machineName" type="s:string" />
+    <wsdl:part name="mesPartID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReleaseInformationHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentLotNbrHttpPostIn">
+    <wsdl:part name="psMachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentLotNbrHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMTMSLocationHttpPostIn">
+    <wsdl:part name="psPartNbr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMTMSLocationHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSatHttpPostIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSatHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsMoldHttpPostIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+    <wsdl:part name="systemFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsMoldHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="FindBroadcastCodeInCntrsHttpPostIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FindBroadcastCodeInCntrsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="FlagAllBECsInCntrOK2RelabelHttpPostIn">
+    <wsdl:part name="StdPackID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FlagAllBECsInCntrOK2RelabelHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="FlagBECOK2RelabelHttpPostIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FlagBECOK2RelabelHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:portType name="BECDATALOOKUPSoap">
+    <wsdl:operation name="GetDate">
+      <wsdl:input message="tns:GetDateSoapIn" />
+      <wsdl:output message="tns:GetDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReleaseInformation">
+      <wsdl:input message="tns:RetrieveReleaseInformationSoapIn" />
+      <wsdl:output message="tns:RetrieveReleaseInformationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentLotNbr">
+      <wsdl:input message="tns:GetCurrentLotNbrSoapIn" />
+      <wsdl:output message="tns:GetCurrentLotNbrSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMTMSLocation">
+      <wsdl:input message="tns:GetMTMSLocationSoapIn" />
+      <wsdl:output message="tns:GetMTMSLocationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsSat">
+      <wsdl:input message="tns:GetStandardPackDetailsSatSoapIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsSatSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsMold">
+      <wsdl:input message="tns:GetStandardPackDetailsMoldSoapIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsMoldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FindBroadcastCodeInCntrs">
+      <wsdl:input message="tns:FindBroadcastCodeInCntrsSoapIn" />
+      <wsdl:output message="tns:FindBroadcastCodeInCntrsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcessBroadcastCode">
+      <wsdl:input message="tns:ProcessBroadcastCodeSoapIn" />
+      <wsdl:output message="tns:ProcessBroadcastCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlagAllBECsInCntrOK2Relabel">
+      <wsdl:input message="tns:FlagAllBECsInCntrOK2RelabelSoapIn" />
+      <wsdl:output message="tns:FlagAllBECsInCntrOK2RelabelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlagBECOK2Relabel">
+      <wsdl:input message="tns:FlagBECOK2RelabelSoapIn" />
+      <wsdl:output message="tns:FlagBECOK2RelabelSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BECDATALOOKUPHttpGet">
+    <wsdl:operation name="GetDate">
+      <wsdl:input message="tns:GetDateHttpGetIn" />
+      <wsdl:output message="tns:GetDateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReleaseInformation">
+      <wsdl:input message="tns:RetrieveReleaseInformationHttpGetIn" />
+      <wsdl:output message="tns:RetrieveReleaseInformationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentLotNbr">
+      <wsdl:input message="tns:GetCurrentLotNbrHttpGetIn" />
+      <wsdl:output message="tns:GetCurrentLotNbrHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMTMSLocation">
+      <wsdl:input message="tns:GetMTMSLocationHttpGetIn" />
+      <wsdl:output message="tns:GetMTMSLocationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsSat">
+      <wsdl:input message="tns:GetStandardPackDetailsSatHttpGetIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsSatHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsMold">
+      <wsdl:input message="tns:GetStandardPackDetailsMoldHttpGetIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsMoldHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FindBroadcastCodeInCntrs">
+      <wsdl:input message="tns:FindBroadcastCodeInCntrsHttpGetIn" />
+      <wsdl:output message="tns:FindBroadcastCodeInCntrsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlagAllBECsInCntrOK2Relabel">
+      <wsdl:input message="tns:FlagAllBECsInCntrOK2RelabelHttpGetIn" />
+      <wsdl:output message="tns:FlagAllBECsInCntrOK2RelabelHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlagBECOK2Relabel">
+      <wsdl:input message="tns:FlagBECOK2RelabelHttpGetIn" />
+      <wsdl:output message="tns:FlagBECOK2RelabelHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BECDATALOOKUPHttpPost">
+    <wsdl:operation name="GetDate">
+      <wsdl:input message="tns:GetDateHttpPostIn" />
+      <wsdl:output message="tns:GetDateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReleaseInformation">
+      <wsdl:input message="tns:RetrieveReleaseInformationHttpPostIn" />
+      <wsdl:output message="tns:RetrieveReleaseInformationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentLotNbr">
+      <wsdl:input message="tns:GetCurrentLotNbrHttpPostIn" />
+      <wsdl:output message="tns:GetCurrentLotNbrHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMTMSLocation">
+      <wsdl:input message="tns:GetMTMSLocationHttpPostIn" />
+      <wsdl:output message="tns:GetMTMSLocationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsSat">
+      <wsdl:input message="tns:GetStandardPackDetailsSatHttpPostIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsSatHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsMold">
+      <wsdl:input message="tns:GetStandardPackDetailsMoldHttpPostIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsMoldHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FindBroadcastCodeInCntrs">
+      <wsdl:input message="tns:FindBroadcastCodeInCntrsHttpPostIn" />
+      <wsdl:output message="tns:FindBroadcastCodeInCntrsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlagAllBECsInCntrOK2Relabel">
+      <wsdl:input message="tns:FlagAllBECsInCntrOK2RelabelHttpPostIn" />
+      <wsdl:output message="tns:FlagAllBECsInCntrOK2RelabelHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlagBECOK2Relabel">
+      <wsdl:input message="tns:FlagBECOK2RelabelHttpPostIn" />
+      <wsdl:output message="tns:FlagBECOK2RelabelHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BECDATALOOKUPSoap" type="tns:BECDATALOOKUPSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDate">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReleaseInformation">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/RetrieveReleaseInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentLotNbr">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetCurrentLotNbr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMTMSLocation">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetMTMSLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsSat">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetStandardPackDetailsSat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsMold">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetStandardPackDetailsMold" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindBroadcastCodeInCntrs">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/FindBroadcastCodeInCntrs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessBroadcastCode">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/ProcessBroadcastCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagAllBECsInCntrOK2Relabel">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/FlagAllBECsInCntrOK2Relabel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagBECOK2Relabel">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/BecWebService/FlagBECOK2Relabel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BECDATALOOKUPSoap12" type="tns:BECDATALOOKUPSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDate">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReleaseInformation">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/RetrieveReleaseInformation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentLotNbr">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetCurrentLotNbr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMTMSLocation">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetMTMSLocation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsSat">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetStandardPackDetailsSat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsMold">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/GetStandardPackDetailsMold" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindBroadcastCodeInCntrs">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/FindBroadcastCodeInCntrs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessBroadcastCode">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/ProcessBroadcastCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagAllBECsInCntrOK2Relabel">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/FlagAllBECsInCntrOK2Relabel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagBECOK2Relabel">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/BecWebService/FlagBECOK2Relabel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BECDATALOOKUPHttpGet" type="tns:BECDATALOOKUPHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetDate">
+      <http:operation location="/GetDate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReleaseInformation">
+      <http:operation location="/RetrieveReleaseInformation" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentLotNbr">
+      <http:operation location="/GetCurrentLotNbr" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMTMSLocation">
+      <http:operation location="/GetMTMSLocation" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsSat">
+      <http:operation location="/GetStandardPackDetailsSat" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsMold">
+      <http:operation location="/GetStandardPackDetailsMold" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindBroadcastCodeInCntrs">
+      <http:operation location="/FindBroadcastCodeInCntrs" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagAllBECsInCntrOK2Relabel">
+      <http:operation location="/FlagAllBECsInCntrOK2Relabel" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagBECOK2Relabel">
+      <http:operation location="/FlagBECOK2Relabel" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BECDATALOOKUPHttpPost" type="tns:BECDATALOOKUPHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetDate">
+      <http:operation location="/GetDate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReleaseInformation">
+      <http:operation location="/RetrieveReleaseInformation" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentLotNbr">
+      <http:operation location="/GetCurrentLotNbr" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMTMSLocation">
+      <http:operation location="/GetMTMSLocation" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsSat">
+      <http:operation location="/GetStandardPackDetailsSat" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetailsMold">
+      <http:operation location="/GetStandardPackDetailsMold" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindBroadcastCodeInCntrs">
+      <http:operation location="/FindBroadcastCodeInCntrs" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagAllBECsInCntrOK2Relabel">
+      <http:operation location="/FlagAllBECsInCntrOK2Relabel" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlagBECOK2Relabel">
+      <http:operation location="/FlagBECOK2Relabel" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BECDATALOOKUP">
+    <wsdl:port name="BECDATALOOKUPSoap" binding="tns:BECDATALOOKUPSoap">
+      <soap:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BECDATALOOKUPSoap12" binding="tns:BECDATALOOKUPSoap12">
+      <soap12:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BECDATALOOKUPHttpGet" binding="tns:BECDATALOOKUPHttpGet">
+      <http:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BECDATALOOKUPHttpPost" binding="tns:BECDATALOOKUPHttpPost">
+      <http:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

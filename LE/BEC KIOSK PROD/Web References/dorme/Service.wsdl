@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="PostSerializedProduction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strClientName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPlantId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMaterialNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strProductVersion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dblQuantity" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="datManufacturingDateTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOperatorId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="datRequestDateTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSerialNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStorageLocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strShipToNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strContainerNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLotNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strDestinationLocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCustomerName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCustomerPlant" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressStreet" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressCity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressState" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressPostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressCountry" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCustomerPartNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPartDescription" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dblGrossweight" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEngineeringChange" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strContactPerson" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strDestination" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strDunnscode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLabelFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iCopies" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLabelType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iNumberOfBoxes" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCountryOfOrigin" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iTimeout" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fBufferOnSystemException" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostSerializedProductionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostSerializedProductionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostRootstownProduction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strClientName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPlantId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMaterialNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strProductVersion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dblQuantity" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="datManufacturingDateTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOperatorId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="datRequestDateTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="iTimeout" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fBufferOnSystemException" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostRootstownProductionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostRootstownProductionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostScrap">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strClientName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPlantId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMaterialNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strProductVersion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dblQuantity" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="datManufacturingDateTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOperatorId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="datRequestDateTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="iTimeout" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fBufferOnSystemException" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostScrapResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostScrapResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostVirtualReceipt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strClientName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPlantId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMaterialNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strProductVersion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dblQuantity" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="datManufacturingDateTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOperatorId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="datRequestDateTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSerialNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStorageLocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strShipToNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strContainerNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLotNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strDestinationLocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCustomerName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCustomerPlant" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressStreet" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressCity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressState" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressPostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAddressCountry" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCustomerPartNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPartDescription" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dblGrossweight" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEngineeringChange" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strContactPerson" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strOptionalText5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strDestination" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strDunnscode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLabelFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iCopies" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLabelType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iNumberOfBoxes" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCountryOfOrigin" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iTimeout" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fBufferOnSystemException" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostVirtualReceiptResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostVirtualReceiptResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RepostByKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iTimeOut" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fBufferOnSystemException" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RepostByKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RepostByKeyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelectByKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelectByKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelectByKeyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelectByClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strClient" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelectByClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelectByClientResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PostSerializedProductionSoapIn">
+    <wsdl:part name="parameters" element="tns:PostSerializedProduction" />
+  </wsdl:message>
+  <wsdl:message name="PostSerializedProductionSoapOut">
+    <wsdl:part name="parameters" element="tns:PostSerializedProductionResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostRootstownProductionSoapIn">
+    <wsdl:part name="parameters" element="tns:PostRootstownProduction" />
+  </wsdl:message>
+  <wsdl:message name="PostRootstownProductionSoapOut">
+    <wsdl:part name="parameters" element="tns:PostRootstownProductionResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostScrapSoapIn">
+    <wsdl:part name="parameters" element="tns:PostScrap" />
+  </wsdl:message>
+  <wsdl:message name="PostScrapSoapOut">
+    <wsdl:part name="parameters" element="tns:PostScrapResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostVirtualReceiptSoapIn">
+    <wsdl:part name="parameters" element="tns:PostVirtualReceipt" />
+  </wsdl:message>
+  <wsdl:message name="PostVirtualReceiptSoapOut">
+    <wsdl:part name="parameters" element="tns:PostVirtualReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="RepostByKeySoapIn">
+    <wsdl:part name="parameters" element="tns:RepostByKey" />
+  </wsdl:message>
+  <wsdl:message name="RepostByKeySoapOut">
+    <wsdl:part name="parameters" element="tns:RepostByKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelectByKeySoapIn">
+    <wsdl:part name="parameters" element="tns:SelectByKey" />
+  </wsdl:message>
+  <wsdl:message name="SelectByKeySoapOut">
+    <wsdl:part name="parameters" element="tns:SelectByKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelectByClientSoapIn">
+    <wsdl:part name="parameters" element="tns:SelectByClient" />
+  </wsdl:message>
+  <wsdl:message name="SelectByClientSoapOut">
+    <wsdl:part name="parameters" element="tns:SelectByClientResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="PostSerializedProduction">
+      <wsdl:input message="tns:PostSerializedProductionSoapIn" />
+      <wsdl:output message="tns:PostSerializedProductionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostRootstownProduction">
+      <wsdl:input message="tns:PostRootstownProductionSoapIn" />
+      <wsdl:output message="tns:PostRootstownProductionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostScrap">
+      <wsdl:input message="tns:PostScrapSoapIn" />
+      <wsdl:output message="tns:PostScrapSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostVirtualReceipt">
+      <wsdl:input message="tns:PostVirtualReceiptSoapIn" />
+      <wsdl:output message="tns:PostVirtualReceiptSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RepostByKey">
+      <wsdl:input message="tns:RepostByKeySoapIn" />
+      <wsdl:output message="tns:RepostByKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectByKey">
+      <wsdl:input message="tns:SelectByKeySoapIn" />
+      <wsdl:output message="tns:SelectByKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectByClient">
+      <wsdl:input message="tns:SelectByClientSoapIn" />
+      <wsdl:output message="tns:SelectByClientSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PostSerializedProduction">
+      <soap:operation soapAction="http://tempuri.org/PostSerializedProduction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostRootstownProduction">
+      <soap:operation soapAction="http://tempuri.org/PostRootstownProduction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostScrap">
+      <soap:operation soapAction="http://tempuri.org/PostScrap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostVirtualReceipt">
+      <soap:operation soapAction="http://tempuri.org/PostVirtualReceipt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RepostByKey">
+      <soap:operation soapAction="http://tempuri.org/RepostByKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectByKey">
+      <soap:operation soapAction="http://tempuri.org/SelectByKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectByClient">
+      <soap:operation soapAction="http://tempuri.org/SelectByClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PostSerializedProduction">
+      <soap12:operation soapAction="http://tempuri.org/PostSerializedProduction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostRootstownProduction">
+      <soap12:operation soapAction="http://tempuri.org/PostRootstownProduction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostScrap">
+      <soap12:operation soapAction="http://tempuri.org/PostScrap" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostVirtualReceipt">
+      <soap12:operation soapAction="http://tempuri.org/PostVirtualReceipt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RepostByKey">
+      <soap12:operation soapAction="http://tempuri.org/RepostByKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectByKey">
+      <soap12:operation soapAction="http://tempuri.org/SelectByKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectByClient">
+      <soap12:operation soapAction="http://tempuri.org/SelectByClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://usmsbrk-ap19.northamerica.delphiauto.net/DPH/Integration/Sap/ProductionCount/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://usmsbrk-ap19.northamerica.delphiauto.net/DPH/Integration/Sap/ProductionCount/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

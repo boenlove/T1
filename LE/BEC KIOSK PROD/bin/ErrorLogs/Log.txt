@@ -1,0 +1,8 @@
+10/10/2018 6:03:05 PM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  
+10/10/2018 6:22:05 PM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  
+10/10/2018 6:23:46 PM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  
+10/10/2018 6:26:51 PM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  
+10/10/2018 6:28:17 PM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  
+10/10/2018 6:29:21 PM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  
+10/10/2018 6:30:38 PM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  
+10/11/2018 9:42:18 AM  Print & NotifySAPofPrintedLabel Pdoc.PrinterSettings.IsValid: False  

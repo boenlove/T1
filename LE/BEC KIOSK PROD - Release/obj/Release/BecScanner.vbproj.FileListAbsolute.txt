@@ -1,0 +1,83 @@
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\BecKiosk SR PORT V1.5a.exe.config
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\BecKiosk SR PORT V1.5a.exe
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\BecKiosk SR PORT V1.5a.XmlSerializers.dll
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\BecKiosk SR PORT V1.5a.pdb
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\BecKiosk SR PORT V1.5a.xml
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\EntityFramework.dll
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\EntityFramework.SqlServer.dll
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\Oracle.ManagedDataAccess.dll
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\EntityFramework.xml
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\EntityFramework.SqlServer.xml
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecScanner.DeleteSchedule.resources
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecScanner.ExceptionsHandler.resources
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecScanner.frmContainmentLog.resources
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecScanner.frmMain.resources
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecScanner.MessageSender.resources
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecScanner.SetCount.resources
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecScanner.vbproj.GenerateResource.Cache
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecKiosk SR PORT V1.5a.exe
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecKiosk SR PORT V1.5a.xml
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecKiosk SR PORT V1.5a.pdb
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecKiosk SR PORT V1.5a.XmlSerializers.dll
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\BecKiosk SR PORT V1.5a.exe.manifest
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\bin\BecKiosk SR PORT V1.5a.application
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecKiosk SR PORT V1.5a.exe.manifest
+C:\Manoj\Applications\BEC_Current_Source\T1 Test BECKIOSK\V1.5a\v1.5a\obj\Release\BecKiosk SR PORT V1.5a.application
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\BecKiosk SR PORT V1.6a.exe.config
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\BecKiosk SR PORT V1.6a.exe.manifest
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\BecKiosk SR PORT V1.6a.application
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\BecKiosk SR PORT V1.6a.exe
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\BecKiosk SR PORT V1.6a.XmlSerializers.dll
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\BecKiosk SR PORT V1.6a.pdb
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\BecKiosk SR PORT V1.6a.xml
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\EntityFramework.dll
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\EntityFramework.SqlServer.dll
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\Office.dll
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\Oracle.ManagedDataAccess.dll
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\EntityFramework.xml
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\EntityFramework.SqlServer.xml
+D:\test\BKUP\1010\BEC KIOSK PROD\bin\Office.xml
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecScanner.DeleteSchedule.resources
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecScanner.ExceptionsHandler.resources
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecScanner.frmContainmentLog.resources
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecScanner.frmMain.resources
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecScanner.MessageSender.resources
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecScanner.SetCount.resources
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecScanner.vbproj.GenerateResource.Cache
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.exe.manifest
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.application
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.exe
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.xml
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.pdb
+D:\test\BKUP\1010\BEC KIOSK PROD\obj\Release\BecKiosk SR PORT V1.6a.XmlSerializers.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\BecKiosk SR PORT V1.6a.exe.config
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.exe
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.xml
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.pdb
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.XmlSerializers.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\BecKiosk SR PORT V1.6a.exe.manifest
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\BecKiosk SR PORT V1.6a.application
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\BecKiosk SR PORT V1.6a.exe
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\BecKiosk SR PORT V1.6a.XmlSerializers.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\BecKiosk SR PORT V1.6a.pdb
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\BecKiosk SR PORT V1.6a.xml
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\EntityFramework.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\EntityFramework.SqlServer.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\Office.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\Oracle.ManagedDataAccess.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\EntityFramework.xml
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\EntityFramework.SqlServer.xml
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\bin\Office.xml
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.vbprojResolveAssemblyReference.cache
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.DeleteSchedule.resources
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.ExceptionsHandler.resources
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.frmContainmentLog.resources
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.frmMain.resources
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.MessageSender.resources
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.SetCount.resources
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecScanner.vbproj.GenerateResource.Cache
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.exe.manifest
+D:\test\BKUP\1010\BEC KIOSK PROD - Release\obj\Release\BecKiosk SR PORT V1.6a.application

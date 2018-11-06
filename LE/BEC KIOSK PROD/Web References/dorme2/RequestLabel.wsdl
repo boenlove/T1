@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/BecWebService/RequestLabel" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/BecWebService/RequestLabel" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/BecWebService/RequestLabel">
+      <s:element name="GetSAPLabelData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serial_nbr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ship_package" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSAPLabelDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSAPLabelDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrintLabel_P23">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsRequest">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrintLabel_P23Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrintLabel_P23Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ViewErrorLog">
+        <s:complexType />
+      </s:element>
+      <s:element name="ViewErrorLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ViewErrorLogResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cordial" type="tns:Cordial" />
+      <s:complexType name="Cordial">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="saveSerializedProducts">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SerialNbr" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="mesMachineID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="SerializedList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveSerializedProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="saveSerializedProductsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogEvents">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="logthis" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogEventsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LogEventsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrintSkidSummaryOnly">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SkidID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="PartNbr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CNTR" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MachineName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrintSkidSummaryOnlyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrintSkidSummaryOnlyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertToCustomerPartNumberttt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PartNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertToCustomerPartNumbertttResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConvertToCustomerPartNumbertttResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrintSkidSummary">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SerialNbr" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrintSkidSummaryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrintSkidSummaryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequiresSkid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Plant" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LineID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PKG_Code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequiresSkidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RequiresSkidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetShipDestination_Webmethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Destination" type="tns:clsDestination" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="clsDestination">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="location" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="mes_part_id" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="MachineName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Part_nbr" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ScheduleID" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="mes_machine_id" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="Revision_Physical" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CNTR" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Package_Code" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="QtyPkgsperSkidReq" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="QtyPkgsUsed" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="ControlFlag" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Completed" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MatID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNbr" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UseGeneric" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="QtyPieces" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="LookFor" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetShipDestination_WebmethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetShipDestination_WebmethodResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Destination" type="tns:clsDestination" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPackDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="broadCastCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="container" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="labelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ECL" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPackDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStandardPackDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psBroadcastCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPartNumberResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GotDLOC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PartNbr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CNTR" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GotDLOCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GotDLOCResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOfflinePrinterName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="reportGroupID" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOfflinePrinterNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOfflinePrinterNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GotLabels">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PartNbr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CNTR" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GotLabelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GotLabelsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="testWebMethods">
+        <s:complexType />
+      </s:element>
+      <s:element name="testWebMethodsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="testWebMethodsResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AbortSkid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SkidID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="PartNbr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CNTR" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AbortSkidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AbortSkidResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="priority" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Themessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Recepients" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendEmailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MachineName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMachineIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWhatsScheduled">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PartNbr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CNTR" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWhatsScheduledResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWhatsScheduledResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSkidRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MachineName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSkidRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSkidRecordsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReprintICS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SerialNbrPack" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ReprintICSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReprintICSResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SerialNbrPack" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteICSBuffer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SerialNbrPack" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteICSBufferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteICSBufferResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SerialNbrPack" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteScheduledRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PartNbr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ECL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CNTR" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PKG" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MachineName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteByMachineName" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteScheduledRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteScheduledRecordsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMESPartId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psPartNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psUniqueFeature" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMESPartIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMESPartIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowVersionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnterLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LogType" type="tns:logTypes" />
+            <s:element minOccurs="0" maxOccurs="1" name="logMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="logTypes">
+        <s:restriction base="s:string">
+          <s:enumeration value="Reprint" />
+          <s:enumeration value="AbortSkid" />
+          <s:enumeration value="DeleteSchedule" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="EnterLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EnterLogResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveInpectionRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveInpectionRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveInpectionRecordResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQualityProblemCodes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Result1" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQualityProblemCodesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetQualityProblemCodesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="Result1" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RunsAt">
+        <s:complexType />
+      </s:element>
+      <s:element name="RunsAtResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RunsAtResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnReserveSerials">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Machine_Name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnReserveSerialsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UnReserveSerialsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="anyType" nillable="true" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetSAPLabelDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSAPLabelData" />
+  </wsdl:message>
+  <wsdl:message name="GetSAPLabelDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSAPLabelDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="PrintLabel_P23SoapIn">
+    <wsdl:part name="parameters" element="tns:PrintLabel_P23" />
+  </wsdl:message>
+  <wsdl:message name="PrintLabel_P23SoapOut">
+    <wsdl:part name="parameters" element="tns:PrintLabel_P23Response" />
+  </wsdl:message>
+  <wsdl:message name="ViewErrorLogSoapIn">
+    <wsdl:part name="parameters" element="tns:ViewErrorLog" />
+  </wsdl:message>
+  <wsdl:message name="ViewErrorLogSoapOut">
+    <wsdl:part name="parameters" element="tns:ViewErrorLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="ViewErrorLogCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="saveSerializedProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:saveSerializedProducts" />
+  </wsdl:message>
+  <wsdl:message name="saveSerializedProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:saveSerializedProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="saveSerializedProductsCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="LogEventsSoapIn">
+    <wsdl:part name="parameters" element="tns:LogEvents" />
+  </wsdl:message>
+  <wsdl:message name="LogEventsSoapOut">
+    <wsdl:part name="parameters" element="tns:LogEventsResponse" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryOnlySoapIn">
+    <wsdl:part name="parameters" element="tns:PrintSkidSummaryOnly" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryOnlySoapOut">
+    <wsdl:part name="parameters" element="tns:PrintSkidSummaryOnlyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToCustomerPartNumbertttSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertToCustomerPartNumberttt" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToCustomerPartNumbertttSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertToCustomerPartNumbertttResponse" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummarySoapIn">
+    <wsdl:part name="parameters" element="tns:PrintSkidSummary" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummarySoapOut">
+    <wsdl:part name="parameters" element="tns:PrintSkidSummaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequiresSkidSoapIn">
+    <wsdl:part name="parameters" element="tns:RequiresSkid" />
+  </wsdl:message>
+  <wsdl:message name="RequiresSkidSoapOut">
+    <wsdl:part name="parameters" element="tns:RequiresSkidResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetShipDestination_WebmethodSoapIn">
+    <wsdl:part name="parameters" element="tns:GetShipDestination_Webmethod" />
+  </wsdl:message>
+  <wsdl:message name="GetShipDestination_WebmethodSoapOut">
+    <wsdl:part name="parameters" element="tns:GetShipDestination_WebmethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStandardPackDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStandardPackDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPartNumber" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPartNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="GotDLOCSoapIn">
+    <wsdl:part name="parameters" element="tns:GotDLOC" />
+  </wsdl:message>
+  <wsdl:message name="GotDLOCSoapOut">
+    <wsdl:part name="parameters" element="tns:GotDLOCResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflinePrinterNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOfflinePrinterName" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflinePrinterNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOfflinePrinterNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GotLabelsSoapIn">
+    <wsdl:part name="parameters" element="tns:GotLabels" />
+  </wsdl:message>
+  <wsdl:message name="GotLabelsSoapOut">
+    <wsdl:part name="parameters" element="tns:GotLabelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GotLabelsCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="testWebMethodsSoapIn">
+    <wsdl:part name="parameters" element="tns:testWebMethods" />
+  </wsdl:message>
+  <wsdl:message name="testWebMethodsSoapOut">
+    <wsdl:part name="parameters" element="tns:testWebMethodsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AbortSkidSoapIn">
+    <wsdl:part name="parameters" element="tns:AbortSkid" />
+  </wsdl:message>
+  <wsdl:message name="AbortSkidSoapOut">
+    <wsdl:part name="parameters" element="tns:AbortSkidResponse" />
+  </wsdl:message>
+  <wsdl:message name="AbortSkidCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendEmail" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMachineID" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMachineIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWhatsScheduledSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWhatsScheduled" />
+  </wsdl:message>
+  <wsdl:message name="GetWhatsScheduledSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWhatsScheduledResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWhatsScheduledCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="GetSkidRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSkidRecords" />
+  </wsdl:message>
+  <wsdl:message name="GetSkidRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSkidRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReprintICSSoapIn">
+    <wsdl:part name="parameters" element="tns:ReprintICS" />
+  </wsdl:message>
+  <wsdl:message name="ReprintICSSoapOut">
+    <wsdl:part name="parameters" element="tns:ReprintICSResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReprintICSCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="DeleteICSBufferSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteICSBuffer" />
+  </wsdl:message>
+  <wsdl:message name="DeleteICSBufferSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteICSBufferResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteICSBufferCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="DeleteScheduledRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteScheduledRecords" />
+  </wsdl:message>
+  <wsdl:message name="DeleteScheduledRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteScheduledRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteScheduledRecordsCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="GetMESPartIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMESPartId" />
+  </wsdl:message>
+  <wsdl:message name="GetMESPartIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMESPartIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowVersion" />
+  </wsdl:message>
+  <wsdl:message name="ShowVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="EnterLogSoapIn">
+    <wsdl:part name="parameters" element="tns:EnterLog" />
+  </wsdl:message>
+  <wsdl:message name="EnterLogSoapOut">
+    <wsdl:part name="parameters" element="tns:EnterLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveInpectionRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveInpectionRecord" />
+  </wsdl:message>
+  <wsdl:message name="SaveInpectionRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveInpectionRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQualityProblemCodesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetQualityProblemCodes" />
+  </wsdl:message>
+  <wsdl:message name="GetQualityProblemCodesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetQualityProblemCodesResponse" />
+  </wsdl:message>
+  <wsdl:message name="RunsAtSoapIn">
+    <wsdl:part name="parameters" element="tns:RunsAt" />
+  </wsdl:message>
+  <wsdl:message name="RunsAtSoapOut">
+    <wsdl:part name="parameters" element="tns:RunsAtResponse" />
+  </wsdl:message>
+  <wsdl:message name="UnReserveSerialsSoapIn">
+    <wsdl:part name="parameters" element="tns:UnReserveSerials" />
+  </wsdl:message>
+  <wsdl:message name="UnReserveSerialsSoapOut">
+    <wsdl:part name="parameters" element="tns:UnReserveSerialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UnReserveSerialsCordial">
+    <wsdl:part name="Cordial" element="tns:Cordial" />
+  </wsdl:message>
+  <wsdl:message name="GetSAPLabelDataHttpGetIn">
+    <wsdl:part name="serial_nbr" type="s:string" />
+    <wsdl:part name="ship_package" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSAPLabelDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ViewErrorLogHttpGetIn" />
+  <wsdl:message name="ViewErrorLogHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="saveSerializedProductsHttpGetIn">
+    <wsdl:part name="SerialNbr" type="s:string" />
+    <wsdl:part name="mesMachineID" type="s:string" />
+    <wsdl:part name="SerializedList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="saveSerializedProductsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LogEventsHttpGetIn">
+    <wsdl:part name="logthis" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogEventsHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryOnlyHttpGetIn">
+    <wsdl:part name="SkidID" type="s:string" />
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+    <wsdl:part name="MachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryOnlyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToCustomerPartNumbertttHttpGetIn">
+    <wsdl:part name="PartNumber" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToCustomerPartNumbertttHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryHttpGetIn">
+    <wsdl:part name="SerialNbr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RequiresSkidHttpGetIn">
+    <wsdl:part name="Plant" type="s:string" />
+    <wsdl:part name="LineID" type="s:string" />
+    <wsdl:part name="PKG_Code" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequiresSkidHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsHttpGetIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+    <wsdl:part name="container" type="s:string" />
+    <wsdl:part name="labelType" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberHttpGetIn">
+    <wsdl:part name="psBroadcastCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GotDLOCHttpGetIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GotDLOCHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflinePrinterNameHttpGetIn">
+    <wsdl:part name="reportGroupID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflinePrinterNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GotLabelsHttpGetIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GotLabelsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="testWebMethodsHttpGetIn" />
+  <wsdl:message name="testWebMethodsHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="AbortSkidHttpGetIn">
+    <wsdl:part name="SkidID" type="s:string" />
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AbortSkidHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailHttpGetIn">
+    <wsdl:part name="Subject" type="s:string" />
+    <wsdl:part name="priority" type="s:string" />
+    <wsdl:part name="Themessage" type="s:string" />
+    <wsdl:part name="Recepients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineIDHttpGetIn">
+    <wsdl:part name="MachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWhatsScheduledHttpGetIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWhatsScheduledHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetSkidRecordsHttpGetIn">
+    <wsdl:part name="MachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSkidRecordsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DeleteScheduledRecordsHttpGetIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+    <wsdl:part name="PKG" type="s:string" />
+    <wsdl:part name="MachineName" type="s:string" />
+    <wsdl:part name="DeleteByMachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteScheduledRecordsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMESPartIdHttpGetIn">
+    <wsdl:part name="psPartNumber" type="s:string" />
+    <wsdl:part name="psUniqueFeature" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMESPartIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ShowVersionHttpGetIn" />
+  <wsdl:message name="ShowVersionHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="EnterLogHttpGetIn">
+    <wsdl:part name="LogType" type="s:string" />
+    <wsdl:part name="logMessage" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EnterLogHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="RunsAtHttpGetIn" />
+  <wsdl:message name="RunsAtHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UnReserveSerialsHttpGetIn">
+    <wsdl:part name="Machine_Name" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UnReserveSerialsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSAPLabelDataHttpPostIn">
+    <wsdl:part name="serial_nbr" type="s:string" />
+    <wsdl:part name="ship_package" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSAPLabelDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ViewErrorLogHttpPostIn" />
+  <wsdl:message name="ViewErrorLogHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="saveSerializedProductsHttpPostIn">
+    <wsdl:part name="SerialNbr" type="s:string" />
+    <wsdl:part name="mesMachineID" type="s:string" />
+    <wsdl:part name="SerializedList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="saveSerializedProductsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LogEventsHttpPostIn">
+    <wsdl:part name="logthis" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogEventsHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryOnlyHttpPostIn">
+    <wsdl:part name="SkidID" type="s:string" />
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+    <wsdl:part name="MachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryOnlyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToCustomerPartNumbertttHttpPostIn">
+    <wsdl:part name="PartNumber" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToCustomerPartNumbertttHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryHttpPostIn">
+    <wsdl:part name="SerialNbr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PrintSkidSummaryHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RequiresSkidHttpPostIn">
+    <wsdl:part name="Plant" type="s:string" />
+    <wsdl:part name="LineID" type="s:string" />
+    <wsdl:part name="PKG_Code" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequiresSkidHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsHttpPostIn">
+    <wsdl:part name="broadCastCode" type="s:string" />
+    <wsdl:part name="container" type="s:string" />
+    <wsdl:part name="labelType" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPackDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberHttpPostIn">
+    <wsdl:part name="psBroadcastCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GotDLOCHttpPostIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GotDLOCHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflinePrinterNameHttpPostIn">
+    <wsdl:part name="reportGroupID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflinePrinterNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GotLabelsHttpPostIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GotLabelsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="testWebMethodsHttpPostIn" />
+  <wsdl:message name="testWebMethodsHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="AbortSkidHttpPostIn">
+    <wsdl:part name="SkidID" type="s:string" />
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AbortSkidHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailHttpPostIn">
+    <wsdl:part name="Subject" type="s:string" />
+    <wsdl:part name="priority" type="s:string" />
+    <wsdl:part name="Themessage" type="s:string" />
+    <wsdl:part name="Recepients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineIDHttpPostIn">
+    <wsdl:part name="MachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWhatsScheduledHttpPostIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWhatsScheduledHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetSkidRecordsHttpPostIn">
+    <wsdl:part name="MachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSkidRecordsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DeleteScheduledRecordsHttpPostIn">
+    <wsdl:part name="PartNbr" type="s:string" />
+    <wsdl:part name="ECL" type="s:string" />
+    <wsdl:part name="CNTR" type="s:string" />
+    <wsdl:part name="PKG" type="s:string" />
+    <wsdl:part name="MachineName" type="s:string" />
+    <wsdl:part name="DeleteByMachineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteScheduledRecordsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMESPartIdHttpPostIn">
+    <wsdl:part name="psPartNumber" type="s:string" />
+    <wsdl:part name="psUniqueFeature" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMESPartIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ShowVersionHttpPostIn" />
+  <wsdl:message name="ShowVersionHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="EnterLogHttpPostIn">
+    <wsdl:part name="LogType" type="s:string" />
+    <wsdl:part name="logMessage" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EnterLogHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="RunsAtHttpPostIn" />
+  <wsdl:message name="RunsAtHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UnReserveSerialsHttpPostIn">
+    <wsdl:part name="Machine_Name" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UnReserveSerialsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="RequestLabelSoap">
+    <wsdl:operation name="GetSAPLabelData">
+      <wsdl:input message="tns:GetSAPLabelDataSoapIn" />
+      <wsdl:output message="tns:GetSAPLabelDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintLabel_P23">
+      <wsdl:input message="tns:PrintLabel_P23SoapIn" />
+      <wsdl:output message="tns:PrintLabel_P23SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewErrorLog">
+      <wsdl:input message="tns:ViewErrorLogSoapIn" />
+      <wsdl:output message="tns:ViewErrorLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="saveSerializedProducts">
+      <wsdl:input message="tns:saveSerializedProductsSoapIn" />
+      <wsdl:output message="tns:saveSerializedProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LogEvents">
+      <wsdl:input message="tns:LogEventsSoapIn" />
+      <wsdl:output message="tns:LogEventsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummaryOnly">
+      <wsdl:input message="tns:PrintSkidSummaryOnlySoapIn" />
+      <wsdl:output message="tns:PrintSkidSummaryOnlySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToCustomerPartNumberttt">
+      <wsdl:input message="tns:ConvertToCustomerPartNumbertttSoapIn" />
+      <wsdl:output message="tns:ConvertToCustomerPartNumbertttSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummary">
+      <wsdl:input message="tns:PrintSkidSummarySoapIn" />
+      <wsdl:output message="tns:PrintSkidSummarySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequiresSkid">
+      <wsdl:input message="tns:RequiresSkidSoapIn" />
+      <wsdl:output message="tns:RequiresSkidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetShipDestination_Webmethod">
+      <wsdl:input message="tns:GetShipDestination_WebmethodSoapIn" />
+      <wsdl:output message="tns:GetShipDestination_WebmethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetails">
+      <wsdl:input message="tns:GetStandardPackDetailsSoapIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumber">
+      <wsdl:input message="tns:GetPartNumberSoapIn" />
+      <wsdl:output message="tns:GetPartNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GotDLOC">
+      <wsdl:input message="tns:GotDLOCSoapIn" />
+      <wsdl:output message="tns:GotDLOCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePrinterName">
+      <wsdl:input message="tns:GetOfflinePrinterNameSoapIn" />
+      <wsdl:output message="tns:GetOfflinePrinterNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GotLabels">
+      <wsdl:input message="tns:GotLabelsSoapIn" />
+      <wsdl:output message="tns:GotLabelsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="testWebMethods">
+      <wsdl:input message="tns:testWebMethodsSoapIn" />
+      <wsdl:output message="tns:testWebMethodsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AbortSkid">
+      <wsdl:input message="tns:AbortSkidSoapIn" />
+      <wsdl:output message="tns:AbortSkidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <wsdl:input message="tns:SendEmailSoapIn" />
+      <wsdl:output message="tns:SendEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineID">
+      <wsdl:input message="tns:GetMachineIDSoapIn" />
+      <wsdl:output message="tns:GetMachineIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWhatsScheduled">
+      <wsdl:input message="tns:GetWhatsScheduledSoapIn" />
+      <wsdl:output message="tns:GetWhatsScheduledSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSkidRecords">
+      <wsdl:input message="tns:GetSkidRecordsSoapIn" />
+      <wsdl:output message="tns:GetSkidRecordsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintICS">
+      <wsdl:input message="tns:ReprintICSSoapIn" />
+      <wsdl:output message="tns:ReprintICSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteICSBuffer">
+      <wsdl:input message="tns:DeleteICSBufferSoapIn" />
+      <wsdl:output message="tns:DeleteICSBufferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScheduledRecords">
+      <wsdl:input message="tns:DeleteScheduledRecordsSoapIn" />
+      <wsdl:output message="tns:DeleteScheduledRecordsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMESPartId">
+      <wsdl:input message="tns:GetMESPartIdSoapIn" />
+      <wsdl:output message="tns:GetMESPartIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowVersion">
+      <wsdl:input message="tns:ShowVersionSoapIn" />
+      <wsdl:output message="tns:ShowVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnterLog">
+      <wsdl:input message="tns:EnterLogSoapIn" />
+      <wsdl:output message="tns:EnterLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveInpectionRecord">
+      <wsdl:input message="tns:SaveInpectionRecordSoapIn" />
+      <wsdl:output message="tns:SaveInpectionRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQualityProblemCodes">
+      <wsdl:input message="tns:GetQualityProblemCodesSoapIn" />
+      <wsdl:output message="tns:GetQualityProblemCodesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RunsAt">
+      <wsdl:input message="tns:RunsAtSoapIn" />
+      <wsdl:output message="tns:RunsAtSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UnReserveSerials">
+      <wsdl:input message="tns:UnReserveSerialsSoapIn" />
+      <wsdl:output message="tns:UnReserveSerialsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RequestLabelHttpGet">
+    <wsdl:operation name="GetSAPLabelData">
+      <wsdl:input message="tns:GetSAPLabelDataHttpGetIn" />
+      <wsdl:output message="tns:GetSAPLabelDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewErrorLog">
+      <wsdl:input message="tns:ViewErrorLogHttpGetIn" />
+      <wsdl:output message="tns:ViewErrorLogHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="saveSerializedProducts">
+      <wsdl:input message="tns:saveSerializedProductsHttpGetIn" />
+      <wsdl:output message="tns:saveSerializedProductsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LogEvents">
+      <wsdl:input message="tns:LogEventsHttpGetIn" />
+      <wsdl:output message="tns:LogEventsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummaryOnly">
+      <wsdl:input message="tns:PrintSkidSummaryOnlyHttpGetIn" />
+      <wsdl:output message="tns:PrintSkidSummaryOnlyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToCustomerPartNumberttt">
+      <wsdl:input message="tns:ConvertToCustomerPartNumbertttHttpGetIn" />
+      <wsdl:output message="tns:ConvertToCustomerPartNumbertttHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummary">
+      <wsdl:input message="tns:PrintSkidSummaryHttpGetIn" />
+      <wsdl:output message="tns:PrintSkidSummaryHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequiresSkid">
+      <wsdl:input message="tns:RequiresSkidHttpGetIn" />
+      <wsdl:output message="tns:RequiresSkidHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetails">
+      <wsdl:input message="tns:GetStandardPackDetailsHttpGetIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumber">
+      <wsdl:input message="tns:GetPartNumberHttpGetIn" />
+      <wsdl:output message="tns:GetPartNumberHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GotDLOC">
+      <wsdl:input message="tns:GotDLOCHttpGetIn" />
+      <wsdl:output message="tns:GotDLOCHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePrinterName">
+      <wsdl:input message="tns:GetOfflinePrinterNameHttpGetIn" />
+      <wsdl:output message="tns:GetOfflinePrinterNameHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GotLabels">
+      <wsdl:input message="tns:GotLabelsHttpGetIn" />
+      <wsdl:output message="tns:GotLabelsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="testWebMethods">
+      <wsdl:input message="tns:testWebMethodsHttpGetIn" />
+      <wsdl:output message="tns:testWebMethodsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AbortSkid">
+      <wsdl:input message="tns:AbortSkidHttpGetIn" />
+      <wsdl:output message="tns:AbortSkidHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <wsdl:input message="tns:SendEmailHttpGetIn" />
+      <wsdl:output message="tns:SendEmailHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineID">
+      <wsdl:input message="tns:GetMachineIDHttpGetIn" />
+      <wsdl:output message="tns:GetMachineIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWhatsScheduled">
+      <wsdl:input message="tns:GetWhatsScheduledHttpGetIn" />
+      <wsdl:output message="tns:GetWhatsScheduledHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSkidRecords">
+      <wsdl:input message="tns:GetSkidRecordsHttpGetIn" />
+      <wsdl:output message="tns:GetSkidRecordsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScheduledRecords">
+      <wsdl:input message="tns:DeleteScheduledRecordsHttpGetIn" />
+      <wsdl:output message="tns:DeleteScheduledRecordsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMESPartId">
+      <wsdl:input message="tns:GetMESPartIdHttpGetIn" />
+      <wsdl:output message="tns:GetMESPartIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowVersion">
+      <wsdl:input message="tns:ShowVersionHttpGetIn" />
+      <wsdl:output message="tns:ShowVersionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnterLog">
+      <wsdl:input message="tns:EnterLogHttpGetIn" />
+      <wsdl:output message="tns:EnterLogHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RunsAt">
+      <wsdl:input message="tns:RunsAtHttpGetIn" />
+      <wsdl:output message="tns:RunsAtHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UnReserveSerials">
+      <wsdl:input message="tns:UnReserveSerialsHttpGetIn" />
+      <wsdl:output message="tns:UnReserveSerialsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RequestLabelHttpPost">
+    <wsdl:operation name="GetSAPLabelData">
+      <wsdl:input message="tns:GetSAPLabelDataHttpPostIn" />
+      <wsdl:output message="tns:GetSAPLabelDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewErrorLog">
+      <wsdl:input message="tns:ViewErrorLogHttpPostIn" />
+      <wsdl:output message="tns:ViewErrorLogHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="saveSerializedProducts">
+      <wsdl:input message="tns:saveSerializedProductsHttpPostIn" />
+      <wsdl:output message="tns:saveSerializedProductsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LogEvents">
+      <wsdl:input message="tns:LogEventsHttpPostIn" />
+      <wsdl:output message="tns:LogEventsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummaryOnly">
+      <wsdl:input message="tns:PrintSkidSummaryOnlyHttpPostIn" />
+      <wsdl:output message="tns:PrintSkidSummaryOnlyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToCustomerPartNumberttt">
+      <wsdl:input message="tns:ConvertToCustomerPartNumbertttHttpPostIn" />
+      <wsdl:output message="tns:ConvertToCustomerPartNumbertttHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummary">
+      <wsdl:input message="tns:PrintSkidSummaryHttpPostIn" />
+      <wsdl:output message="tns:PrintSkidSummaryHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequiresSkid">
+      <wsdl:input message="tns:RequiresSkidHttpPostIn" />
+      <wsdl:output message="tns:RequiresSkidHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetails">
+      <wsdl:input message="tns:GetStandardPackDetailsHttpPostIn" />
+      <wsdl:output message="tns:GetStandardPackDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumber">
+      <wsdl:input message="tns:GetPartNumberHttpPostIn" />
+      <wsdl:output message="tns:GetPartNumberHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GotDLOC">
+      <wsdl:input message="tns:GotDLOCHttpPostIn" />
+      <wsdl:output message="tns:GotDLOCHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePrinterName">
+      <wsdl:input message="tns:GetOfflinePrinterNameHttpPostIn" />
+      <wsdl:output message="tns:GetOfflinePrinterNameHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GotLabels">
+      <wsdl:input message="tns:GotLabelsHttpPostIn" />
+      <wsdl:output message="tns:GotLabelsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="testWebMethods">
+      <wsdl:input message="tns:testWebMethodsHttpPostIn" />
+      <wsdl:output message="tns:testWebMethodsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AbortSkid">
+      <wsdl:input message="tns:AbortSkidHttpPostIn" />
+      <wsdl:output message="tns:AbortSkidHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <wsdl:input message="tns:SendEmailHttpPostIn" />
+      <wsdl:output message="tns:SendEmailHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineID">
+      <wsdl:input message="tns:GetMachineIDHttpPostIn" />
+      <wsdl:output message="tns:GetMachineIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWhatsScheduled">
+      <wsdl:input message="tns:GetWhatsScheduledHttpPostIn" />
+      <wsdl:output message="tns:GetWhatsScheduledHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSkidRecords">
+      <wsdl:input message="tns:GetSkidRecordsHttpPostIn" />
+      <wsdl:output message="tns:GetSkidRecordsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScheduledRecords">
+      <wsdl:input message="tns:DeleteScheduledRecordsHttpPostIn" />
+      <wsdl:output message="tns:DeleteScheduledRecordsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMESPartId">
+      <wsdl:input message="tns:GetMESPartIdHttpPostIn" />
+      <wsdl:output message="tns:GetMESPartIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowVersion">
+      <wsdl:input message="tns:ShowVersionHttpPostIn" />
+      <wsdl:output message="tns:ShowVersionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnterLog">
+      <wsdl:input message="tns:EnterLogHttpPostIn" />
+      <wsdl:output message="tns:EnterLogHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RunsAt">
+      <wsdl:input message="tns:RunsAtHttpPostIn" />
+      <wsdl:output message="tns:RunsAtHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UnReserveSerials">
+      <wsdl:input message="tns:UnReserveSerialsHttpPostIn" />
+      <wsdl:output message="tns:UnReserveSerialsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RequestLabelSoap" type="tns:RequestLabelSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSAPLabelData">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetSAPLabelData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintLabel_P23">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/PrintLabel_P23" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewErrorLog">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ViewErrorLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:ViewErrorLogCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSerializedProducts">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/saveSerializedProducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:saveSerializedProductsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogEvents">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/LogEvents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummaryOnly">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/PrintSkidSummaryOnly" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToCustomerPartNumberttt">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ConvertToCustomerPartNumberttt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummary">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/PrintSkidSummary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequiresSkid">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/RequiresSkid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetShipDestination_Webmethod">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetShipDestination_Webmethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetails">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetStandardPackDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumber">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetPartNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotDLOC">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GotDLOC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePrinterName">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetOfflinePrinterName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotLabels">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GotLabels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GotLabelsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testWebMethods">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/testWebMethods" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AbortSkid">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/AbortSkid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:AbortSkidCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/SendEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SendEmailCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineID">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetMachineID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWhatsScheduled">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetWhatsScheduled" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetWhatsScheduledCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSkidRecords">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetSkidRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintICS">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ReprintICS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:ReprintICSCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteICSBuffer">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/DeleteICSBuffer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DeleteICSBufferCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScheduledRecords">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/DeleteScheduledRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DeleteScheduledRecordsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMESPartId">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetMESPartId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowVersion">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ShowVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnterLog">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/EnterLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveInpectionRecord">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/SaveInpectionRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQualityProblemCodes">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetQualityProblemCodes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunsAt">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/RunsAt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnReserveSerials">
+      <soap:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/UnReserveSerials" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UnReserveSerialsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RequestLabelSoap12" type="tns:RequestLabelSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSAPLabelData">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetSAPLabelData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintLabel_P23">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/PrintLabel_P23" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewErrorLog">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ViewErrorLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ViewErrorLogCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSerializedProducts">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/saveSerializedProducts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:saveSerializedProductsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogEvents">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/LogEvents" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummaryOnly">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/PrintSkidSummaryOnly" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToCustomerPartNumberttt">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ConvertToCustomerPartNumberttt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummary">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/PrintSkidSummary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequiresSkid">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/RequiresSkid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetShipDestination_Webmethod">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetShipDestination_Webmethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetails">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetStandardPackDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumber">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetPartNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotDLOC">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GotDLOC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePrinterName">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetOfflinePrinterName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotLabels">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GotLabels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GotLabelsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testWebMethods">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/testWebMethods" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AbortSkid">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/AbortSkid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:AbortSkidCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/SendEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SendEmailCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineID">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetMachineID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWhatsScheduled">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetWhatsScheduled" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetWhatsScheduledCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSkidRecords">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetSkidRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintICS">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ReprintICS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ReprintICSCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteICSBuffer">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/DeleteICSBuffer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DeleteICSBufferCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScheduledRecords">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/DeleteScheduledRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DeleteScheduledRecordsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMESPartId">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetMESPartId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowVersion">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/ShowVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnterLog">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/EnterLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveInpectionRecord">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/SaveInpectionRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQualityProblemCodes">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/GetQualityProblemCodes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunsAt">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/RunsAt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnReserveSerials">
+      <soap12:operation soapAction="http://tempuri.org/BecWebService/RequestLabel/UnReserveSerials" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UnReserveSerialsCordial" part="Cordial" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RequestLabelHttpGet" type="tns:RequestLabelHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetSAPLabelData">
+      <http:operation location="/GetSAPLabelData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewErrorLog">
+      <http:operation location="/ViewErrorLog" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSerializedProducts">
+      <http:operation location="/saveSerializedProducts" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogEvents">
+      <http:operation location="/LogEvents" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummaryOnly">
+      <http:operation location="/PrintSkidSummaryOnly" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToCustomerPartNumberttt">
+      <http:operation location="/ConvertToCustomerPartNumberttt" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummary">
+      <http:operation location="/PrintSkidSummary" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequiresSkid">
+      <http:operation location="/RequiresSkid" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetails">
+      <http:operation location="/GetStandardPackDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumber">
+      <http:operation location="/GetPartNumber" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotDLOC">
+      <http:operation location="/GotDLOC" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePrinterName">
+      <http:operation location="/GetOfflinePrinterName" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotLabels">
+      <http:operation location="/GotLabels" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testWebMethods">
+      <http:operation location="/testWebMethods" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AbortSkid">
+      <http:operation location="/AbortSkid" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <http:operation location="/SendEmail" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineID">
+      <http:operation location="/GetMachineID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWhatsScheduled">
+      <http:operation location="/GetWhatsScheduled" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSkidRecords">
+      <http:operation location="/GetSkidRecords" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScheduledRecords">
+      <http:operation location="/DeleteScheduledRecords" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMESPartId">
+      <http:operation location="/GetMESPartId" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowVersion">
+      <http:operation location="/ShowVersion" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnterLog">
+      <http:operation location="/EnterLog" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunsAt">
+      <http:operation location="/RunsAt" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnReserveSerials">
+      <http:operation location="/UnReserveSerials" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RequestLabelHttpPost" type="tns:RequestLabelHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetSAPLabelData">
+      <http:operation location="/GetSAPLabelData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewErrorLog">
+      <http:operation location="/ViewErrorLog" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSerializedProducts">
+      <http:operation location="/saveSerializedProducts" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogEvents">
+      <http:operation location="/LogEvents" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummaryOnly">
+      <http:operation location="/PrintSkidSummaryOnly" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToCustomerPartNumberttt">
+      <http:operation location="/ConvertToCustomerPartNumberttt" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSkidSummary">
+      <http:operation location="/PrintSkidSummary" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequiresSkid">
+      <http:operation location="/RequiresSkid" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPackDetails">
+      <http:operation location="/GetStandardPackDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumber">
+      <http:operation location="/GetPartNumber" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotDLOC">
+      <http:operation location="/GotDLOC" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePrinterName">
+      <http:operation location="/GetOfflinePrinterName" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GotLabels">
+      <http:operation location="/GotLabels" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testWebMethods">
+      <http:operation location="/testWebMethods" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AbortSkid">
+      <http:operation location="/AbortSkid" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <http:operation location="/SendEmail" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineID">
+      <http:operation location="/GetMachineID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWhatsScheduled">
+      <http:operation location="/GetWhatsScheduled" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSkidRecords">
+      <http:operation location="/GetSkidRecords" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScheduledRecords">
+      <http:operation location="/DeleteScheduledRecords" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMESPartId">
+      <http:operation location="/GetMESPartId" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowVersion">
+      <http:operation location="/ShowVersion" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnterLog">
+      <http:operation location="/EnterLog" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunsAt">
+      <http:operation location="/RunsAt" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnReserveSerials">
+      <http:operation location="/UnReserveSerials" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RequestLabel">
+    <wsdl:port name="RequestLabelSoap" binding="tns:RequestLabelSoap">
+      <soap:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECWebService_UEC_BDU_Test/RequestLabel.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RequestLabelSoap12" binding="tns:RequestLabelSoap12">
+      <soap12:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECWebService_UEC_BDU_Test/RequestLabel.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RequestLabelHttpGet" binding="tns:RequestLabelHttpGet">
+      <http:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECWebService_UEC_BDU_Test/RequestLabel.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RequestLabelHttpPost" binding="tns:RequestLabelHttpPost">
+      <http:address location="http://usmsbrk-ap17.northamerica.delphiauto.net/BECWebService_UEC_BDU_Test/RequestLabel.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

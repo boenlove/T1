@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3967706445724D686232694F385A423754345A3251513D3D</Value>
+    </Setting>
+    <Setting Name="ConnectionString_FT23" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DATA SOURCE= (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = uswana08.northamerica.delphiauto.net)(PORT = 1521))  (LOAD_BALANCE = YES) (CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = plt23dv)) ) ;USER ID=mesdba;PASSWORD=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
