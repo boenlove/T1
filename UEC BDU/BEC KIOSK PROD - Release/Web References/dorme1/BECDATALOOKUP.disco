@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx?wsdl" docRef="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx" xmlns:q1="http://tempuri.org/BecWebService/BecWebService" binding="q1:BECDATALOOKUPSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://usmsbrk-ap17.northamerica.delphiauto.net/BECDataLookup_RFC100-03-124001_Test/BECDATALOOKUP.asmx" xmlns:q2="http://tempuri.org/BecWebService/BecWebService" binding="q2:BECDATALOOKUPSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

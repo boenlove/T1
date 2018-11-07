@@ -4,7 +4,7 @@
   <description asmv2:iconFile="aptiv_logo_r0Q_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="BecKiosk V1.6LE- PRD" version="1.0.6884.28950" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="BecKiosk V1.6LE- PRD" version="1.0.6884.29047" language="neutral" processorArchitecture="msil" />
     <commandLine file="BecKiosk V1.6LE- PRD.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -53,26 +53,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BecKiosk V1.6LE- PRD.exe" size="560128">
-      <assemblyIdentity name="BecKiosk V1.6LE- PRD" version="1.0.6884.28950" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BecKiosk V1.6LE- PRD.exe" size="559616">
+      <assemblyIdentity name="BecKiosk V1.6LE- PRD" version="1.0.6884.29047" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7QiVELpoN/Tp/9KQUERzWP9wXtCC5dTOAUb0ff7GokQ=</dsig:DigestValue>
+        <dsig:DigestValue>YcatTaRgtoL7ggoxB7D0AkxerwGJ3tPOqVkQPZKTkTU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BecKiosk V1.6LE- PRD.XmlSerializers.dll" size="187392">
-      <assemblyIdentity name="BecKiosk V1.6LE- PRD.XmlSerializers" version="1.0.6884.28950" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="BecKiosk V1.6LE- PRD.XmlSerializers" version="1.0.6884.29047" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KkBKAMQqK2N6pKggV+R0ogpCxhM+c113+2C9KNrPYIE=</dsig:DigestValue>
+        <dsig:DigestValue>qdG2o+AsBR50DuuwmGuPlXDs9NcBDgRfIFrMMsW1Dz8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -27,6 +27,7 @@ Public Class frmMain
     Friend WithEvents SerialPort1 As System.IO.Ports.SerialPort
     Friend WithEvents test_SN As System.Windows.Forms.TextBox
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     'used to buffer comm port input
 
     Private newSerialNumbers() As String
@@ -174,8 +175,10 @@ Public Class frmMain
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.test_SN = New System.Windows.Forms.TextBox()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'lblScannerStatus
@@ -685,7 +688,7 @@ Public Class frmMain
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(649, 186)
+        Me.Button2.Location = New System.Drawing.Point(6, 19)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(111, 24)
         Me.Button2.TabIndex = 61
@@ -693,27 +696,38 @@ Public Class frmMain
         '
         'test_SN
         '
-        Me.test_SN.Location = New System.Drawing.Point(659, 216)
+        Me.test_SN.Location = New System.Drawing.Point(9, 60)
         Me.test_SN.Name = "test_SN"
         Me.test_SN.Size = New System.Drawing.Size(216, 20)
         Me.test_SN.TabIndex = 62
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(766, 186)
+        Me.Button3.Location = New System.Drawing.Point(114, 19)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(111, 24)
         Me.Button3.TabIndex = 63
         Me.Button3.Text = "Single BR Test"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Button2)
+        Me.GroupBox1.Controls.Add(Me.test_SN)
+        Me.GroupBox1.Controls.Add(Me.Button3)
+        Me.GroupBox1.Location = New System.Drawing.Point(657, 186)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(246, 120)
+        Me.GroupBox1.TabIndex = 64
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Test"
+        Me.GroupBox1.Visible = False
         '
         'frmMain
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
         Me.ClientSize = New System.Drawing.Size(946, 678)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.test_SN)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.txtShipTo)
         Me.Controls.Add(Me.txtSkidPackageCount)
         Me.Controls.Add(Me.txtPackageCode)
@@ -761,6 +775,8 @@ Public Class frmMain
         Me.Text = "frmMain"
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
