@@ -1,0 +1,10 @@
+10/27/2005 1:52:27 PM Error: One or more errors occurred during processing of command.
+ORA-00933: SQL command not properly ended:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/27/2005 1:52:28 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/27/2005 1:54:39 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SSP"."SUB_STAMDARD_PACK_ID": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/27/2005 1:54:39 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

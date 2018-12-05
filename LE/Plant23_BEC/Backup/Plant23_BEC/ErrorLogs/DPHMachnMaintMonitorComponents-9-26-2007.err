@@ -1,0 +1,18 @@
+9/26/2007 5:19:02 PM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+9/26/2007 5:19:02 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/26/2007 5:39:28 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "MES_PART_ID": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/26/2007 5:39:28 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/26/2007 5:40:06 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "MES_PART_ID": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/26/2007 5:40:06 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/26/2007 5:41:32 PM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+9/26/2007 5:41:32 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

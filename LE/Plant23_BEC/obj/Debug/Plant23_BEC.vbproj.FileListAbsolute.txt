@@ -1,0 +1,124 @@
+C:\inetpub\wwwroot\Plant23_BEC\bin\Plant23_BEC.dll
+C:\inetpub\wwwroot\Plant23_BEC\bin\Plant23_BEC.pdb
+C:\inetpub\wwwroot\Plant23_BEC\bin\Plant23_BEC.xml
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.vbproj.ResolveComReference.cache
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Data_Deleter.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Data_Loader.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Generic_SerialNumbers.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_INFO.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Part_Line_Restriction.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Part_Line_Restriction_Deleter.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_ProductionRun.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_SAP_Forecast_Summary.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.WebForm2.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_SerialNumberAvailability.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Setup.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Ship_Destination.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Ship_Destination_All_Users.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_UpdateProductionRun.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Cntrl_Footer1.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Cntrl_Header1.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Cntrl_Menu.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.DatePicker.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Delphi_GM_Cross_Reference.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Export.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Global.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Home.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Kiosk_ConfigFile_Update.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Lot_History.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Plant23HeaderControl.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.SAP_BEC_LabelRequest_MATID.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.SAP_MATID_Inquiry.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.SAP_MATID_Request.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.SerialNumber_Search.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.Serial_History.resources
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.dll
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.xml
+C:\inetpub\wwwroot\Plant23_BEC\obj\Debug\Plant23_BEC.pdb
+C:\inetpub\wwwroot\Plant23_BEC\bin\Oracle.ManagedDataAccess.dll
+D:\test\BKUP\806\Plant23_BEC\bin\Plant23_BEC.dll
+D:\test\BKUP\806\Plant23_BEC\bin\Plant23_BEC.pdb
+D:\test\BKUP\806\Plant23_BEC\bin\Plant23_BEC.xml
+D:\test\BKUP\806\Plant23_BEC\bin\Oracle.ManagedDataAccess.dll
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.vbprojResolveAssemblyReference.cache
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.vbproj.ResolveComReference.cache
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Data_Deleter.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Data_Loader.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Generic_SerialNumbers.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_INFO.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Part_Line_Restriction.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Part_Line_Restriction_Deleter.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_ProductionRun.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_SAP_Forecast_Summary.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.WebForm2.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_SerialNumberAvailability.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Setup.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Ship_Destination.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_Ship_Destination_All_Users.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.BEC_UpdateProductionRun.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Cntrl_Footer1.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Cntrl_Header1.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Cntrl_Menu.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.DatePicker.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Delphi_GM_Cross_Reference.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Export.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Global.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Home.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Kiosk_ConfigFile_Update.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Lot_History.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Plant23HeaderControl.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.SAP_BEC_LabelRequest_MATID.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.SAP_MATID_Inquiry.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.SAP_MATID_Request.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.SerialNumber_Search.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.Serial_History.resources
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.vbproj.GenerateResource.Cache
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.dll
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.xml
+D:\test\BKUP\806\Plant23_BEC\obj\Debug\Plant23_BEC.pdb
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\bin\Plant23_BEC.dll
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\bin\Plant23_BEC.pdb
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\bin\Plant23_BEC.xml
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\bin\Oracle.ManagedDataAccess.dll
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.vbproj.ResolveComReference.cache
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Data_Deleter.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Data_Loader.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Generic_SerialNumbers.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_INFO.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Part_Line_Restriction.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Part_Line_Restriction_Deleter.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_ProductionRun.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_SAP_Forecast_Summary.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.WebForm2.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_SerialNumberAvailability.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Setup.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Ship_Destination.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_Ship_Destination_All_Users.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.BEC_UpdateProductionRun.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Cntrl_Footer1.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Cntrl_Header1.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Cntrl_Menu.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.DatePicker.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Delphi_GM_Cross_Reference.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Export.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Global.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Home.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Kiosk_ConfigFile_Update.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Lot_History.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Plant23HeaderControl.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.SAP_BEC_LabelRequest_MATID.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.SAP_MATID_Inquiry.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.SAP_MATID_Request.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.SerialNumber_Search.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.Serial_History.resources
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.vbproj.GenerateResource.Cache
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.dll
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.xml
+D:\test\BKUP\1025\Plant23_BEC - BDU,UEC for T1\obj\Debug\Plant23_BEC.pdb

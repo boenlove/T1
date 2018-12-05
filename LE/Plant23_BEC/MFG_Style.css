@@ -1,0 +1,221 @@
+/* Default CSS Stylesheet for all Delphi MFG Web Applications
+   #004c7a = Dark Blue
+   #D1D3D4 = Dark Gray
+   #990000 = Maroon
+   #40799B = Meduim Blue
+   #D9E4EB = Light Blue
+   #cc9966 = Beige */
+
+/* ----------------------------------------------------------
+   Common Page Formatting
+   ---------------------------------------------------------- */
+BODY, TBODY, SMALL
+{
+	font-weight: normal;
+	font-size: 8pt;
+	word-spacing: normal;
+	text-transform: none;
+	font-family: Verdana, Helvetica, sans-serif;
+	letter-spacing: normal;
+}
+
+.tblTitle, BIG
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: black;
+}
+
+.tblFooter
+{
+	font-size: 8pt;
+	color: black;
+	background-color: white;
+}
+
+.tblFormat
+{
+	font-size: 8pt;
+	background-color: whitesmoke;
+}
+
+.SmallTitle
+{
+	font-size: 8pt;
+	color: black;
+    font-weight: bold;
+}
+
+.Note
+{
+	font-size: 8pt;
+	color: black;
+	font-style: italic;
+}
+
+.tblLogo, .tblLogo a:hover
+{
+	font-size: 8pt;
+	color: White;
+	text-decoration: none;
+}
+.tblLogo a:link, .tblLogo a:active, .tblLogo a:visited
+{
+	font-size: 8pt;
+	color: White;
+	text-decoration: underline;
+}
+
+/* ----------------------------------------------------------
+   Hyperlinks
+   ---------------------------------------------------------- */
+A:link	{	
+	text-decoration:	none;
+	color: Blue;
+	}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	Blue;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	Blue;
+	}	
+		
+A:hover	{	
+	text-decoration:	underline;
+	color:	Blue;
+	}
+
+/* ----------------------------------------------------------
+   Message or Error Label Formatting
+   ---------------------------------------------------------- */
+.lblError
+{
+	padding-right: 5px;
+	margin-top: 10px;
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	color: #fc3100;
+	padding-top: 5px;
+	text-align:left;
+}	
+
+.lblMessage
+{
+	border-right: #40799B 1px solid;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: #40799B 1px solid;
+	font-size: 8pt;
+	padding-bottom: 5px;
+	border-left: #40799B 1px solid;
+	padding-top: 5px;
+	border-bottom: #40799B 1px solid;
+	color: black;
+	background-color: #D1D3D4;
+}
+
+/* ----------------------------------------------------------
+   Calendar Control Formatting
+   ---------------------------------------------------------- */
+.TitleStyle
+{ background-color: #D1D3D4;
+  font-size: 9pt;
+  color: Black;
+}
+
+.WeekendDayStyle
+{ background-color: #D9E4EB;
+  color: Black;
+}
+.DayHeaderStyle
+{ background-color: #004C7A;
+  color: White;
+}
+.OtherMonthDay
+{
+  color: #cc9966;
+}
+
+
+/* ----------------------------------------------------------
+   Datagrid Formatting
+   ---------------------------------------------------------- */
+.DGheader, .DGheader a:link, .DGheader a:visited
+{
+	font-size: 8pt;
+	color: white;
+	height: 25px;
+	background-color: #004C7A;
+}
+
+.DGheader a:link, .DGheader a:visited
+{
+	font-size: 8pt;
+	color: white;
+	height: 25px;
+	background-color: #004C7A;
+	text-decoration: underline;
+}
+.DGheader a:hover
+{
+	font-size: 8pt;
+	color: white;
+	height: 25px;
+	background-color: #004C7A;
+	text-decoration: none;
+}
+.DGItem
+{
+	font-size: 8pt;
+	color: black;
+	background-color: white;
+}
+
+.DGAltItem
+{
+	font-size: 8pt;
+	color: black;
+	background-color: #D9E4EB;
+}	
+	
+.DGChildHeader
+{
+	font-size: 8pt;
+	color: black;
+	background-color: #42789C;
+}	
+/* ----------------------------------------------------------
+   List Formatting
+   ---------------------------------------------------------- */	
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	

@@ -1,0 +1,9 @@
+5/24/2007 10:22:59 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+5/24/2007 10:22:59 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+5/24/2007 11:30:00 AM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+5/24/2007 11:30:00 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

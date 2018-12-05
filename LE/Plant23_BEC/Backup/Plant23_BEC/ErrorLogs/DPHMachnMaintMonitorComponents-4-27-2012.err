@@ -1,0 +1,5 @@
+4/27/2012 1:18:42 PM Error: One or more errors occurred during processing of command.
+ORA-00984: column not allowed here:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+4/27/2012 1:18:42 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

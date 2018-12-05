@@ -1,0 +1,786 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "11.0.61219"
+        SchemaVersion = "4.5"
+        ProjectGuid = "{3114FC0A-22A7-492F-B41A-6D2996EA2622}"
+        SccProjectName = '"$/Plant23_BEC.root/Plant23_BEC", BGCAAAAA'
+        SccLocalPath = "."
+        
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Plant23_BEC"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Plant23_BEC"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.Data.OracleClient"
+                    AssemblyName = "System.Data.OracleClient"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.OracleClient.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "Encryption"
+                    AssemblyName = "Encryption"
+                    HintPath = "Plant19WEB\bin\Encryption.dll"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "System.Configuration.Install"
+                    AssemblyName = "System.Configuration.Install"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Configuration.Install.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.DirectoryServices"
+                    AssemblyName = "System.DirectoryServices"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.DirectoryServices.dll"
+                />
+                <Reference
+                    Name = "skmMenu"
+                    AssemblyName = "skmMenu"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\skmMenu.dll"
+                />
+                <Reference
+                    Name = "Interop.ORADCLib"
+                    AssemblyName = "Interop.ORADCLib"
+                    HintPath = "bin\Interop.ORADCLib.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Data_Deleter.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Data_Deleter.aspx.vb"
+                    DependentUpon = "BEC_Data_Deleter.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Data_Deleter.aspx.resx"
+                    DependentUpon = "BEC_Data_Deleter.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Data_Loader.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Data_Loader.aspx.vb"
+                    DependentUpon = "BEC_Data_Loader.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Data_Loader.aspx.resx"
+                    DependentUpon = "BEC_Data_Loader.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Generic_SerialNumbers.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Generic_SerialNumbers.aspx.vb"
+                    DependentUpon = "BEC_Generic_SerialNumbers.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Generic_SerialNumbers.aspx.resx"
+                    DependentUpon = "BEC_Generic_SerialNumbers.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_INFO.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_INFO.asmx.vb"
+                    DependentUpon = "BEC_INFO.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_INFO.asmx.resx"
+                    DependentUpon = "BEC_INFO.asmx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Part_Line_Restriction.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Part_Line_Restriction.aspx.vb"
+                    DependentUpon = "BEC_Part_Line_Restriction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Part_Line_Restriction.aspx.resx"
+                    DependentUpon = "BEC_Part_Line_Restriction.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Part_Line_Restriction_Deleter.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Part_Line_Restriction_Deleter.aspx.vb"
+                    DependentUpon = "BEC_Part_Line_Restriction_Deleter.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Part_Line_Restriction_Deleter.aspx.resx"
+                    DependentUpon = "BEC_Part_Line_Restriction_Deleter.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_ProductionRun.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_ProductionRun.aspx.vb"
+                    DependentUpon = "BEC_ProductionRun.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_ProductionRun.aspx.resx"
+                    DependentUpon = "BEC_ProductionRun.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_SAP_Forecast_Summary.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_SAP_Forecast_Summary.aspx.vb"
+                    DependentUpon = "BEC_SAP_Forecast_Summary.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_SAP_Forecast_Summary.aspx.resx"
+                    DependentUpon = "BEC_SAP_Forecast_Summary.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Security_Denied.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Security_Denied.aspx.vb"
+                    DependentUpon = "BEC_Security_Denied.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Security_Denied.aspx.resx"
+                    DependentUpon = "BEC_Security_Denied.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_SerialNumberAvailability.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_SerialNumberAvailability.aspx.vb"
+                    DependentUpon = "BEC_SerialNumberAvailability.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_SerialNumberAvailability.aspx.resx"
+                    DependentUpon = "BEC_SerialNumberAvailability.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_SerialNumbers.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_SerialNumbers.aspx.vb"
+                    DependentUpon = "BEC_SerialNumbers.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_SerialNumbers.aspx.resx"
+                    DependentUpon = "BEC_SerialNumbers.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Setup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Setup.aspx.vb"
+                    DependentUpon = "BEC_Setup.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Setup.aspx.resx"
+                    DependentUpon = "BEC_Setup.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Ship_Destination.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Ship_Destination.aspx.vb"
+                    DependentUpon = "BEC_Ship_Destination.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Ship_Destination.aspx.resx"
+                    DependentUpon = "BEC_Ship_Destination.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_Ship_Destination_All_Users.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_Ship_Destination_All_Users.aspx.vb"
+                    DependentUpon = "BEC_Ship_Destination_All_Users.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_Ship_Destination_All_Users.aspx.resx"
+                    DependentUpon = "BEC_Ship_Destination_All_Users.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BEC_UpdateProductionRun.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BEC_UpdateProductionRun.aspx.vb"
+                    DependentUpon = "BEC_UpdateProductionRun.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BEC_UpdateProductionRun.aspx.resx"
+                    DependentUpon = "BEC_UpdateProductionRun.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Copy of Menu_Items.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DatePicker.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DatePicker.aspx.vb"
+                    DependentUpon = "DatePicker.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DatePicker.aspx.resx"
+                    DependentUpon = "DatePicker.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "date-picker.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Delphi_GM_Cross_Reference.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Delphi_GM_Cross_Reference.aspx.vb"
+                    DependentUpon = "Delphi_GM_Cross_Reference.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Delphi_GM_Cross_Reference.aspx.resx"
+                    DependentUpon = "Delphi_GM_Cross_Reference.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ExportSerialHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ExportSerialHistory.aspx.vb"
+                    DependentUpon = "ExportSerialHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ExportSerialHistory.aspx.resx"
+                    DependentUpon = "ExportSerialHistory.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Index.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Index.aspx.vb"
+                    DependentUpon = "Index.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Index.aspx.resx"
+                    DependentUpon = "Index.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiosk_ConfigFile_AdminCode_Update.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Kiosk_ConfigFile_AdminCode_Update.aspx.vb"
+                    DependentUpon = "Kiosk_ConfigFile_AdminCode_Update.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kiosk_ConfigFile_AdminCode_Update.aspx.resx"
+                    DependentUpon = "Kiosk_ConfigFile_AdminCode_Update.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiosk_ConfigFile_Update.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Kiosk_ConfigFile_Update.aspx.vb"
+                    DependentUpon = "Kiosk_ConfigFile_Update.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kiosk_ConfigFile_Update.aspx.resx"
+                    DependentUpon = "Kiosk_ConfigFile_Update.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Lot_History.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Lot_History.aspx.vb"
+                    DependentUpon = "Lot_History.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Lot_History.aspx.resx"
+                    DependentUpon = "Lot_History.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Menu_Items.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "mssccprj.scc"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Plant23HeaderControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Plant23HeaderControl.ascx.vb"
+                    DependentUpon = "Plant23HeaderControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plant23HeaderControl.ascx.resx"
+                    DependentUpon = "Plant23HeaderControl.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SAP_BEC_LabelRequest_MATID.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SAP_BEC_LabelRequest_MATID.aspx.vb"
+                    DependentUpon = "SAP_BEC_LabelRequest_MATID.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SAP_BEC_LabelRequest_MATID.aspx.resx"
+                    DependentUpon = "SAP_BEC_LabelRequest_MATID.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SAP_MATID_Inquiry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SAP_MATID_Inquiry.aspx.vb"
+                    DependentUpon = "SAP_MATID_Inquiry.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SAP_MATID_Inquiry.aspx.resx"
+                    DependentUpon = "SAP_MATID_Inquiry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SAP_MATID_Request.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SAP_MATID_Request.aspx.vb"
+                    DependentUpon = "SAP_MATID_Request.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SAP_MATID_Request.aspx.resx"
+                    DependentUpon = "SAP_MATID_Request.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Serial_History.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Serial_History.aspx.vb"
+                    DependentUpon = "Serial_History.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Serial_History.aspx.resx"
+                    DependentUpon = "Serial_History.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SerialNumber_Search.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SerialNumber_Search.aspx.vb"
+                    DependentUpon = "SerialNumber_Search.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SerialNumber_Search.aspx.resx"
+                    DependentUpon = "SerialNumber_Search.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "vssver.scc"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Footer.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Footer.ascx.vb"
+                    DependentUpon = "Cntrl_Footer.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Footer.ascx.resx"
+                    DependentUpon = "Cntrl_Footer.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Header.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Header.ascx.vb"
+                    DependentUpon = "Cntrl_Header.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Header.ascx.resx"
+                    DependentUpon = "Cntrl_Header.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Menu.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Menu.ascx.vb"
+                    DependentUpon = "Cntrl_Menu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\Cntrl_Menu.ascx.resx"
+                    DependentUpon = "Cntrl_Menu.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Common\Common.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\MFG_Style.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Common\Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\usp_GetPartsFromSchedulePool.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\AccessDenied.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\arrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Arrow_Gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Arrow_Yellow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Bar.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\BottomCorner.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\calendar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Calendar.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\checkmarkcircle.jpeg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Collapse.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Delphi_Bullet.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Delphi_HDivider.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Delphi_top_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Delphi_VertDivider.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Divider.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Expand.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Icon_Error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\line_horizontal.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Lock.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\P19_Logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Search.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\SecurityRequest.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Images\ToolBox.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\View.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\vssver.scc"
+                    BuildAction = "None"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

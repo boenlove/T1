@@ -1,0 +1,10 @@
+9/24/2013 5:44:12 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "MES_PART_ID": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/24/2013 5:44:12 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/24/2013 5:44:45 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "MES_PART_ID": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/24/2013 5:44:45 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

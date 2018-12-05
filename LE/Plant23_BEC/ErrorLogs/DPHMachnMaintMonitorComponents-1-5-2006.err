@@ -1,0 +1,21 @@
+1/5/2006 8:46:48 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SERIAL_NUMBER": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/5/2006 8:46:48 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/5/2006 8:47:17 AM Error: A field or property with the name 'PRODUCT_ID' was not found on the selected datasource.:System.Web 
+     Parameters: None
+1/5/2006 8:47:17 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/5/2006 8:47:41 AM Error: A field or property with the name 'PRODUCT_ID' was not found on the selected datasource.:System.Web 
+     Parameters: None
+1/5/2006 8:47:41 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/5/2006 8:48:03 AM Error: A field or property with the name 'PRODUCT_ID' was not found on the selected datasource.:System.Web 
+     Parameters: None
+1/5/2006 8:48:03 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/5/2006 8:48:09 AM Error: A field or property with the name 'PRODUCT_ID' was not found on the selected datasource.:System.Web 
+     Parameters: None
+1/5/2006 8:48:09 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

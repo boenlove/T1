@@ -1,0 +1,188 @@
+BODY
+{
+    RIGHT: 0px;
+    LEFT: 0px;
+    MARGIN: 0px;
+    BOTTOM: 0px;
+    POSITION: absolute;
+    TOP: 0px
+}
+#breadcrumb
+{
+    MARGIN-TOP: 0px;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 0px;
+    PADDING-BOTTOM: 5px;
+    MARGIN-LEFT: 15px;
+    COLOR: #03576a;
+    PADDING-TOP: 5px
+}
+.ns6bugfix
+{
+    DISPLAY: block
+}
+FORM
+{
+    MARGIN: 0px
+}
+.darkGray
+{
+    BACKGROUND-COLOR: #535252
+}
+#breadcrumb
+{
+    MARGIN-TOP: 0px;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 0px;
+    PADDING-BOTTOM: 5px;
+    MARGIN-LEFT: 15px;
+    COLOR: #03576a;
+    PADDING-TOP: 5px
+}
+.white
+{
+    FONT-WEIGHT: bold;
+    COLOR: white
+}
+.blue
+{
+    COLOR: blue
+}
+.red
+{
+    COLOR: #fe0000
+}
+.mainContent
+{
+    MARGIN-LEFT: 15px;
+    WIDTH: 600px
+}
+.leftnav
+{
+    BACKGROUND-COLOR: #7b7b7b
+}
+.firstgraybar
+{
+    BACKGROUND-COLOR: #535252
+}
+.secondgraybar
+{
+    BACKGROUND-COLOR: #616161
+}
+.accentred
+{
+    BACKGROUND-COLOR: #fe0000
+}
+.secondgraybar
+{
+    BACKGROUND-COLOR: #616161
+}
+.landingContent
+{
+    BACKGROUND-COLOR: #ecf3f4
+}
+.mediumlandingContent
+{
+    BACKGROUND-COLOR: #aeccd1
+}
+.darklandingContent
+{
+    BACKGROUND-COLOR: #00778f
+}
+.content
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.fieldlabel
+{
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: top
+}
+.searchResultsIcon
+{
+    MARGIN: 0px 5px 0px 7px
+}
+.fancyDTIButton
+{
+    BORDER-RIGHT: white 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: white 1px solid;
+    PADDING-LEFT: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    VERTICAL-ALIGN: top;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: white 1px solid;
+    COLOR: #eeeeee;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: white 1px solid;
+    FONT-FAMILY: helvetica, verdana, arial, sans-serif;
+    BACKGROUND-COLOR: #22a2bb
+}
+.thirdLevelNav
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    MARGIN-LEFT: 20px;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px
+}
+.thirdLevelNav UL
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px 0px 0px 20px;
+    PADDING-TOP: 0px
+}
+.sectionheading
+{
+    FONT-WEIGHT: bold;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #03576a
+}
+.sectionheading A
+{
+    FONT-WEIGHT: bold;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #03576a
+}
+.sectionheading A:visited
+{
+    FONT-WEIGHT: bold;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #03576a
+}
+.thirdLevelNav LI
+{
+    COLOR: #27e9fb;
+    LIST-STYLE-TYPE: square
+}
+.thirdLevelNav STRONG
+{
+    COLOR: #27e9fb
+}
+.fsMarginHeadline
+{
+    MARGIN: 0px 0px 0px 10px
+}
+.fsMargin
+{
+    MARGIN: 0px 0px 4px 10px
+}
+.fsThumb
+{
+    MARGIN: 2px 0px 12px
+}
+.debug
+{
+    FONT-SIZE: 12px;
+    COLOR: #aa0000;
+    FONT-FAMILY: arial,helvetica,sans-serif;
+    BACKGROUND-COLOR: #ffff00
+}

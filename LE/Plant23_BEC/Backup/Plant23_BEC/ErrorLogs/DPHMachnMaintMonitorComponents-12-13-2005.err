@@ -1,0 +1,14 @@
+12/13/2005 9:51:03 AM Error: Unspecified error
+ORA-01791: not a SELECTed expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+12/13/2005 9:51:03 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+12/13/2005 9:51:57 AM Error: One or more errors occurred during processing of command.
+ORA-00934: group function is not allowed here:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+12/13/2005 9:51:57 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+12/13/2005 9:53:18 AM Error: A field or property with the name 'PART_NBR' was not found on the selected datasource.:System.Web 
+     Parameters: None
+12/13/2005 9:53:18 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

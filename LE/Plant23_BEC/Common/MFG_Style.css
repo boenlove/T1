@@ -1,0 +1,280 @@
+/* ----------------------------------------------------------
+   DELPHI THEME	
+
+   Light Blue/Green: #aeccd1 (Used for Table Backgrounds)
+   Medium Blue/Green: #82B6C0
+   Dark Blue/Green: #00778F (Used for links)
+
+   Light Grey: #f1f1f1
+   Medium Grey: #cccccc
+   Dark Grey: #666666
+
+   Medium Red: #e6c0c0
+   ---------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------
+   Standard Page Formatting
+   ---------------------------------------------------------- */
+BODY, TBODY
+{
+    FONT-FAMILY: 'MS Shell Dlg';
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 8pt;
+	padding-bottom: 0px;
+	padding-top: 0px;
+    scrollbar-arrow-color: Red;
+    margin: 0px;
+ }
+ 
+  .Background
+{   background-color: #7B7B7B;
+	
+}
+
+A:link, A:visited, A:active
+{
+	font-size: 9pt;
+	color: Blue;
+	text-decoration: none;
+}	
+
+A:hover
+{
+	font-size: 9pt;
+	color: Blue;
+	text-decoration: none;
+}
+
+.PageDivider
+{   background-image: url(../Images/line_horizontal.gif);
+	height: 30px;
+}
+
+/* ----------------------------------------------------------
+   Text Fields or Text Boxes
+   ---------------------------------------------------------- */
+.TextField
+{
+	font-size: 8pt;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+.EditTextField
+{
+	font-size: 9pt;
+	border-top-style: none;
+	border-bottom: black 1px solid;
+	font-family: Verdana, Helvetica, sans-serif;
+	border-right-style: none;
+	border-left-style: none;
+}
+
+
+
+
+/* ----------------------------------------------------------
+   Table Formatting
+   ---------------------------------------------------------- */
+.tblTitle
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #535252;
+}	
+
+.tblFormat
+{
+	font-size: 8pt;
+	background-color: whitesmoke;
+}
+
+/* ----------------------------------------------------------
+   Footer Control Formatting
+   ---------------------------------------------------------- */
+.FooterText
+{   font-size: 8pt;
+	COLOR: white; 
+	BORDER-BOTTOM: red 2px solid; 
+	FONT-FAMILY: 'MS Shell Dlg';
+	width: 200px;
+	background-color: #535252;
+	
+}
+
+.Footer
+{   BORDER-BOTTOM: red 2px solid; 
+	background-color: white;
+	
+}
+
+/* ----------------------------------------------------------
+   Hyperlinks on the left menu
+   ---------------------------------------------------------- */
+.tblNavTitle
+{
+	font-weight: bold;
+	font-size: 9pt;
+	background-image: url(../Images/Delphi_HDivider.jpg);
+	color: #27e9fb;
+	height: 30px;
+}
+
+.NavMenu, .NavMenu A:link, .NavMenu A:visited, .NavMenu A:active
+{	
+	font-size: 8pt;
+	text-decoration: none;
+	color: white;
+}	
+.NavMenu A:hover
+{	
+	font-size: 8pt;
+	text-decoration: none;
+	color: white;
+	background-color: #B0B0B0;
+}	
+.SubNavMenu, .SubNavMenu A:link, .SubNavMenu A:visited, .SubNavMenu A:active
+{
+	border-right: #B0B0B0 1px solid;
+	border-top: #B0B0B0 1px solid;
+	font-size: 9pt;
+	border-left: #B0B0B0 1px solid;
+	color: white;
+	border-bottom: #B0B0B0 1px solid;
+	background-color: #7b7b7b;
+	text-decoration: none;
+    padding: 2, 2, 2, 2;
+}
+
+/* ----------------------------------------------------------
+   Message or Error Label Formatting
+   ---------------------------------------------------------- */
+.lblError
+{
+	padding-right: 5px;
+	margin-top: 10px;
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	color: #fc3100;
+	padding-top: 5px;
+	text-align:left;
+}	
+
+.lblMessage
+{
+	border-right: #40799B 1px solid;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: #40799B 1px solid;
+	font-size: 8pt;
+	padding-bottom: 5px;
+	border-left: #40799B 1px solid;
+	padding-top: 5px;
+	border-bottom: #40799B 1px solid;
+	color: black;
+	background-color: #D1D3D4;
+}
+
+/* ----------------------------------------------------------
+   Calendar Control Formatting
+   ---------------------------------------------------------- */
+.TitleStyle
+{ background-color: #D1D3D4;
+  font-size: 9pt;
+  color: Black;
+}
+
+.WeekendDayStyle
+{ background-color: #D9E4EB;
+  color: Black;
+}
+.DayHeaderStyle
+{ background-color: #004C7A;
+  color: White;
+}
+.OtherMonthDay
+{
+  color: #cc9966;
+}
+
+
+/* ----------------------------------------------------------
+   Datagrid Formatting
+   ---------------------------------------------------------- */
+.DGheader, .DGheader a:link, .DGheader a:visited
+{
+	font-size: 8pt;
+	color: white;
+	height: 25px;
+	background-color: #004C7A;
+}
+
+.DGheader a:link, .DGheader a:visited
+{
+	font-size: 8pt;
+	color: white;
+	height: 25px;
+	background-color: #004C7A;
+	text-decoration: underline;
+}
+.DGheader a:hover
+{
+	font-size: 8pt;
+	color: white;
+	height: 25px;
+	background-color: #004C7A;
+	text-decoration: none;
+}
+.DGItem
+{
+	font-size: 8pt;
+	color: black;
+	background-color: white;
+}
+
+.DGAltItem
+{
+	font-size: 8pt;
+	color: black;
+	background-color: #D9E4EB;
+}	
+	
+.DGChildHeader
+{
+	font-size: 8pt;
+	color: black;
+	background-color: #42789C;
+}	
+
+/* ----------------------------------------------------------
+   Misc Formatting
+   ---------------------------------------------------------- */
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	

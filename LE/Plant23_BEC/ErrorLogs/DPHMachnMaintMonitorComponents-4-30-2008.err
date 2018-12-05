@@ -1,0 +1,25 @@
+4/30/2008 4:16:12 AM Error: ORA-12535: TNS:operation timed out:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+4/30/2008 4:16:12 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+4/30/2008 4:16:12 AM Error: ORA-12535: TNS:operation timed out:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+4/30/2008 4:16:12 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+4/30/2008 4:16:12 AM Error: ORA-12535: TNS:operation timed out:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+4/30/2008 4:16:12 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+4/30/2008 7:53:23 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+4/30/2008 7:53:23 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+4/30/2008 8:33:42 AM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+4/30/2008 8:33:42 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+4/30/2008 8:34:00 AM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+4/30/2008 8:34:00 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

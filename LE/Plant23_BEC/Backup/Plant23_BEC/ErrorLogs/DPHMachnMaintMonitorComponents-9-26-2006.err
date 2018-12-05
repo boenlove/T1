@@ -1,0 +1,24 @@
+9/26/2006 8:52:13 AM Error: Table does not exist.
+ORA-00942: table or view does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/26/2006 8:52:13 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/26/2006 8:52:18 AM Error: Table does not exist.
+ORA-00942: table or view does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/26/2006 8:52:18 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/26/2006 8:52:29 AM Error: Table does not exist.
+ORA-00942: table or view does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/26/2006 8:52:29 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/26/2006 8:52:47 AM Error: Table does not exist.
+ORA-00942: table or view does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/26/2006 8:52:47 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/26/2006 9:11:53 AM Error: Cast from string "&nbsp;" to type 'Double' is not valid.:Microsoft.VisualBasic 
+     Parameters: None
+9/26/2006 9:11:53 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

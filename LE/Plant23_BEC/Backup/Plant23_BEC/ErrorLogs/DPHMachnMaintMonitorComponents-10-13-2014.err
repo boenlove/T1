@@ -1,0 +1,8 @@
+10/13/2014 7:45:01 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/13/2014 7:45:02 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/13/2014 7:45:59 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/13/2014 7:45:59 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

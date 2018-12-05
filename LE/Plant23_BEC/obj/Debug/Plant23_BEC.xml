@@ -1,0 +1,3955 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Plant23_BEC
+</name>
+</assembly>
+<members>
+<member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.cmbPartNumber">
+	<summary>
+cmbPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.lblPackageType">
+	<summary>
+lblPackageType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.rdoPackageType">
+	<summary>
+rdoPackageType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.dgSchedule">
+	<summary>
+dgSchedule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.lblNoRecordsFound">
+	<summary>
+lblNoRecordsFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination_All_Users.txtServerType">
+	<summary>
+txtServerType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator10">
+	<summary>
+Requiredfieldvalidator10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.cmbDept">
+	<summary>
+cmbDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator9">
+	<summary>
+Requiredfieldvalidator9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtPartNumber">
+	<summary>
+txtPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator8">
+	<summary>
+Requiredfieldvalidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtECL">
+	<summary>
+txtECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Comparevalidator3">
+	<summary>
+Comparevalidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator7">
+	<summary>
+Requiredfieldvalidator7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtStdPack">
+	<summary>
+txtStdPack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator6">
+	<summary>
+Requiredfieldvalidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtPkgCD">
+	<summary>
+txtPkgCD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator5">
+	<summary>
+Requiredfieldvalidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.rblContainer">
+	<summary>
+rblContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator4">
+	<summary>
+Requiredfieldvalidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Comparevalidator2">
+	<summary>
+Comparevalidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtBoxCount">
+	<summary>
+txtBoxCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator3">
+	<summary>
+Requiredfieldvalidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtBroadCastCd">
+	<summary>
+txtBroadCastCd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Comparevalidator1">
+	<summary>
+Comparevalidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Requiredfieldvalidator2">
+	<summary>
+Requiredfieldvalidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtLayerCnt">
+	<summary>
+txtLayerCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.btnAddStdPack">
+	<summary>
+btnAddStdPack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.btnEditStdPack">
+	<summary>
+btnEditStdPack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_ProductionRun.dgProductionRun">
+	<summary>
+dgProductionRun control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtMATID">
+	<summary>
+txtMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtMATID_Status">
+	<summary>
+txtMATID_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblECL">
+	<summary>
+lblECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblPackageCode">
+	<summary>
+lblPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblDestination">
+	<summary>
+lblDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblSTD_FLAG">
+	<summary>
+lblSTD_FLAG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtPart_Nbr">
+	<summary>
+txtPart_Nbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.btnVerifyMATID">
+	<summary>
+btnVerifyMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblDescription">
+	<summary>
+lblDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtECL">
+	<summary>
+txtECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtPackageCode">
+	<summary>
+txtPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtDestination">
+	<summary>
+txtDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.cmbSTD_FLAG">
+	<summary>
+cmbSTD_FLAG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtDept">
+	<summary>
+txtDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtQuantity">
+	<summary>
+txtQuantity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtWeight">
+	<summary>
+txtWeight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtPAY_SUFFIX">
+	<summary>
+txtPAY_SUFFIX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtSTD_FLAG">
+	<summary>
+txtSTD_FLAG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblSAP_Customer">
+	<summary>
+lblSAP_Customer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.cmbSAP_Customer">
+	<summary>
+cmbSAP_Customer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblCUST_ADDRESS">
+	<summary>
+lblCUST_ADDRESS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblCUST_CITY">
+	<summary>
+lblCUST_CITY control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblCUST_STATE">
+	<summary>
+lblCUST_STATE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblSHIP_TO_H">
+	<summary>
+lblSHIP_TO_H control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblSHIP_TO">
+	<summary>
+lblSHIP_TO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblPlant_Dock_Line_1_H">
+	<summary>
+lblPlant_Dock_Line_1_H control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblPlant_Dock_Line_1">
+	<summary>
+lblPlant_Dock_Line_1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblNoOfLabels">
+	<summary>
+lblNoOfLabels control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtNoOfLabels">
+	<summary>
+txtNoOfLabels control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblFoundShipTo">
+	<summary>
+lblFoundShipTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblDEST_LOC_H">
+	<summary>
+lblDEST_LOC_H control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblDEST_LOC">
+	<summary>
+lblDEST_LOC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.cmdReset">
+	<summary>
+cmdReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.btnCreateLabelsFromSAP">
+	<summary>
+btnCreateLabelsFromSAP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lstbxInsertResults">
+	<summary>
+lstbxInsertResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_BEC_LabelRequest_MATID.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.DatePicker.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.DatePicker.CalPopup">
+	<summary>
+CalPopup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label13">
+	<summary>
+Label13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblMATID">
+	<summary>
+lblMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtMATID">
+	<summary>
+txtMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.btnModify_MATID">
+	<summary>
+btnModify_MATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblMATIDstatus">
+	<summary>
+lblMATIDstatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.ddlStatus">
+	<summary>
+ddlStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtPart_Nbr">
+	<summary>
+txtPart_Nbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtSTD_FLAG">
+	<summary>
+txtSTD_FLAG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblCreateMATID">
+	<summary>
+lblCreateMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.cmbPart_Nbr">
+	<summary>
+cmbPart_Nbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblDescription">
+	<summary>
+lblDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtPAY_SUFFIX">
+	<summary>
+txtPAY_SUFFIX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.cmbSTD_FLAG">
+	<summary>
+cmbSTD_FLAG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblSAP_Customer">
+	<summary>
+lblSAP_Customer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label14">
+	<summary>
+Label14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.ddlDestination">
+	<summary>
+ddlDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtDestination">
+	<summary>
+txtDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.ddlDept">
+	<summary>
+ddlDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtDept">
+	<summary>
+txtDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtCUSTOMER_CODE">
+	<summary>
+txtCUSTOMER_CODE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.ddlSHIP_TO">
+	<summary>
+ddlSHIP_TO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.ddlCUST_PART_NBR">
+	<summary>
+ddlCUST_PART_NBR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label12">
+	<summary>
+Label12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtECL">
+	<summary>
+txtECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtQUANTITY">
+	<summary>
+txtQUANTITY control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtWEIGHT">
+	<summary>
+txtWEIGHT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.ddlPackageCode">
+	<summary>
+ddlPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtPackageCode">
+	<summary>
+txtPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.lblCUSTOMER_NAME">
+	<summary>
+lblCUSTOMER_NAME control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.btnVerifyMATID">
+	<summary>
+btnVerifyMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtCUST_PART_NBR">
+	<summary>
+txtCUST_PART_NBR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtSHIP_TO">
+	<summary>
+txtSHIP_TO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.txtSTATUS">
+	<summary>
+txtSTATUS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.btnReset">
+	<summary>
+btnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.btnCreateMATID">
+	<summary>
+btnCreateMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.btnSaveMATID">
+	<summary>
+btnSaveMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Request.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Cntrl_Footer1.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.cmbPCNames">
+	<summary>
+cmbPCNames control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.lblAdminCode">
+	<summary>
+lblAdminCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.txtAdminCode">
+	<summary>
+txtAdminCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.lblExceptionAdminCode">
+	<summary>
+lblExceptionAdminCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.txtExceptionAdminCode">
+	<summary>
+txtExceptionAdminCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.lblMessage1">
+	<summary>
+lblMessage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.lblMessage2">
+	<summary>
+lblMessage2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_AdminCode_Update.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.txtPartNumber">
+	<summary>
+txtPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.lblPackageCode">
+	<summary>
+lblPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.txtPackageCode">
+	<summary>
+txtPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.RequiredFieldValidator2">
+	<summary>
+RequiredFieldValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.lblECL">
+	<summary>
+lblECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.txtECL">
+	<summary>
+txtECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.lblSortOrder">
+	<summary>
+lblSortOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.dgICS_LABEL_DATA">
+	<summary>
+dgICS_LABEL_DATA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Generic_SerialNumbers.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.lblSortOrder">
+	<summary>
+lblSortOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.dgSUB_STANDARD_PACK">
+	<summary>
+dgSUB_STANDARD_PACK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.dgPRODUCT_ID">
+	<summary>
+dgPRODUCT_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.txtStandardPackId">
+	<summary>
+txtStandardPackId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Serial_History.txtJob">
+	<summary>
+txtJob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.WebForm2.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.WebForm2.lblSecurityDenied">
+	<summary>
+lblSecurityDenied control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Cntrl_Header1.hlMFGhome">
+	<summary>
+hlMFGhome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Cntrl_Header1.hlDelphip">
+	<summary>
+hlDelphip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Cntrl_Header1.hlApollo">
+	<summary>
+hlApollo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Cntrl_Header1.Hyperlink1">
+	<summary>
+Hyperlink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.cmbPartNumber">
+	<summary>
+cmbPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.lblECL">
+	<summary>
+lblECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.cmbECL">
+	<summary>
+cmbECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.lblContainer">
+	<summary>
+lblContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.cmbContainer">
+	<summary>
+cmbContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.lblPackageCode">
+	<summary>
+lblPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.cmbPackageCode">
+	<summary>
+cmbPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.lblRecordsDeleted">
+	<summary>
+lblRecordsDeleted control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Deleter.btnDeleteData">
+	<summary>
+btnDeleteData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.dgPartLineRestriction">
+	<summary>
+dgPartLineRestriction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction_Deleter.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.cmbPartNumber">
+	<summary>
+cmbPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.lblECL">
+	<summary>
+lblECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.txtContainer">
+	<summary>
+txtContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.btnWhatsSetup">
+	<summary>
+btnWhatsSetup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.txtPartNumber">
+	<summary>
+txtPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.lblNoDataFound">
+	<summary>
+lblNoDataFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Setup.dgWhatsSetup">
+	<summary>
+dgWhatsSetup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Cntrl_Menu.WebMainMenu">
+	<summary>
+WebMainMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Cntrl_Menu.WebMainMenu1">
+	<summary>
+WebMainMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.cmbPCNames">
+	<summary>
+cmbPCNames control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.lblMachineName">
+	<summary>
+lblMachineName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.lblPlant">
+	<summary>
+lblPlant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.lblLineNumber">
+	<summary>
+lblLineNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.lblDepartment">
+	<summary>
+lblDepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.cmbDept">
+	<summary>
+cmbDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.cmbMachineName">
+	<summary>
+cmbMachineName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.txtPlant">
+	<summary>
+txtPlant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.txtLineNumber">
+	<summary>
+txtLineNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Kiosk_ConfigFile_Update.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.lblSortOrder">
+	<summary>
+lblSortOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.dgICS_LABEL_DATA">
+	<summary>
+dgICS_LABEL_DATA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.txtPartNumber">
+	<summary>
+txtPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.txtECL">
+	<summary>
+txtECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.txtDestination">
+	<summary>
+txtDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.txtPackageCode">
+	<summary>
+txtPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.pnlPlant23">
+	<summary>
+pnlPlant23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_Setup">
+	<summary>
+hplkBEC_Setup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_Ship_Destination">
+	<summary>
+hplkBEC_Ship_Destination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_Data_Loader">
+	<summary>
+hplkBEC_Data_Loader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_Part_Line_Restriction">
+	<summary>
+hplkBEC_Part_Line_Restriction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hpkBEC_Production_Run">
+	<summary>
+hpkBEC_Production_Run control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkSerialNumber_Search">
+	<summary>
+hplkSerialNumber_Search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_Part_Line_Restriction_Deleter">
+	<summary>
+hplkBEC_Part_Line_Restriction_Deleter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_Data_Deleter">
+	<summary>
+hplkBEC_Data_Deleter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_UpdateProductionRun">
+	<summary>
+hplkBEC_UpdateProductionRun control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_SerialNumbers">
+	<summary>
+hplkBEC_SerialNumbers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_Generic_SerialNumbers">
+	<summary>
+hplkBEC_Generic_SerialNumbers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkBEC_DelphiGMCrossReference">
+	<summary>
+hplkBEC_DelphiGMCrossReference control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplk">
+	<summary>
+hplk control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Plant23HeaderControl.hplkHelp">
+	<summary>
+hplkHelp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.rfvPartNumber">
+	<summary>
+rfvPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtPartNumber">
+	<summary>
+txtPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.rfvECL">
+	<summary>
+rfvECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblECL">
+	<summary>
+lblECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtECL">
+	<summary>
+txtECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblPriority">
+	<summary>
+lblPriority control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtPriority">
+	<summary>
+txtPriority control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblContainer">
+	<summary>
+lblContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtContainer">
+	<summary>
+txtContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblPackage">
+	<summary>
+lblPackage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.cmbPackage">
+	<summary>
+cmbPackage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.cmbPkgSize">
+	<summary>
+cmbPkgSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblPkgQty">
+	<summary>
+lblPkgQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblMatid">
+	<summary>
+lblMatid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtMatId">
+	<summary>
+txtMatId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblOption">
+	<summary>
+lblOption control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblScheduleEntries">
+	<summary>
+lblScheduleEntries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtScheduleEntries">
+	<summary>
+txtScheduleEntries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.btnLoadData">
+	<summary>
+btnLoadData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.btnWhatsSetup">
+	<summary>
+btnWhatsSetup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.btnLoadDataAnyway">
+	<summary>
+btnLoadDataAnyway control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtPkgs_Per_Skid_Qty">
+	<summary>
+txtPkgs_Per_Skid_Qty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Data_Loader.lblRecordsInserted">
+	<summary>
+lblRecordsInserted control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.txtPartNumber">
+	<summary>
+txtPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.lblMachineName">
+	<summary>
+lblMachineName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.cmbMachineName">
+	<summary>
+cmbMachineName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.lblContainer">
+	<summary>
+lblContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.cmbContainer">
+	<summary>
+cmbContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.btnLoadData">
+	<summary>
+btnLoadData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.lblRecordsInserted">
+	<summary>
+lblRecordsInserted control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.dgPartLineRestriction">
+	<summary>
+dgPartLineRestriction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Part_Line_Restriction.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Export.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Export.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Export.dgStandardPackHistory">
+	<summary>
+dgStandardPackHistory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.cmbPartNumber">
+	<summary>
+cmbPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblDestination">
+	<summary>
+lblDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.cmbDestination">
+	<summary>
+cmbDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblPackageCode">
+	<summary>
+lblPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.cmbPackageCode">
+	<summary>
+cmbPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblECL">
+	<summary>
+lblECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.cmbECL">
+	<summary>
+cmbECL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblSortOrder">
+	<summary>
+lblSortOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.dgICS_LABEL_DATA">
+	<summary>
+dgICS_LABEL_DATA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SerialNumberAvailability_withDLoc.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.cmbSelectedWeek">
+	<summary>
+cmbSelectedWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.dgForecastSummary">
+	<summary>
+dgForecastSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.lblNoRecordsFound">
+	<summary>
+lblNoRecordsFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_SAP_Forecast_Summary.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.btnStdPackAdd">
+	<summary>
+btnStdPackAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblRqstPart">
+	<summary>
+lblRqstPart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblPartSelIndex">
+	<summary>
+lblPartSelIndex control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblSelectedPartID">
+	<summary>
+lblSelectedPartID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblDept">
+	<summary>
+lblDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.cmbDept">
+	<summary>
+cmbDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblPart">
+	<summary>
+lblPart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.cmbPartNumber">
+	<summary>
+cmbPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.dgProductionRun">
+	<summary>
+dgProductionRun control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_UpdateProductionRun.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Home.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Home.Cntrl_Header1">
+	<summary>
+Cntrl_Header1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Home.Cntrl_Menu1">
+	<summary>
+Cntrl_Menu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Home.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Home.lblDisclaimer">
+	<summary>
+lblDisclaimer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Home.Cntrl_Footer1">
+	<summary>
+Cntrl_Footer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblAndOr">
+	<summary>
+lblAndOr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.ddlAndOr">
+	<summary>
+ddlAndOr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblPackageCode">
+	<summary>
+lblPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.ddlPackageCode">
+	<summary>
+ddlPackageCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblSTD_FLAG">
+	<summary>
+lblSTD_FLAG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.cmbSTD_FLAG">
+	<summary>
+cmbSTD_FLAG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Textbox1">
+	<summary>
+Textbox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.btnModify_MATID">
+	<summary>
+btnModify_MATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.txtMATID">
+	<summary>
+txtMATID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblShipTo">
+	<summary>
+lblShipTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.cmbShipTo">
+	<summary>
+cmbShipTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblPart_Nbr">
+	<summary>
+lblPart_Nbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.dgMATID_Grid">
+	<summary>
+dgMATID_Grid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.lblSAP_Customer">
+	<summary>
+lblSAP_Customer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SAP_MATID_Inquiry.cmbPart_Nbr">
+	<summary>
+cmbPart_Nbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.lblPartNumber">
+	<summary>
+lblPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.cmbPartNumber">
+	<summary>
+cmbPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.lblPackageType">
+	<summary>
+lblPackageType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.rdoPackageType">
+	<summary>
+rdoPackageType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.cmbEditChoice">
+	<summary>
+cmbEditChoice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.dgSchedule">
+	<summary>
+dgSchedule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.lblNoRecordsFound">
+	<summary>
+lblNoRecordsFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.BEC_Ship_Destination.txtServerType">
+	<summary>
+txtServerType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.lblSortOrder">
+	<summary>
+lblSortOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.dgLOT">
+	<summary>
+dgLOT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.txtSecurityCheck">
+	<summary>
+txtSecurityCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.txtProductId">
+	<summary>
+txtProductId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Lot_History.txtJob">
+	<summary>
+txtJob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.cmbDelphiPart">
+	<summary>
+cmbDelphiPart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.lblGMPartNumber">
+	<summary>
+lblGMPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.cmbGMPart">
+	<summary>
+cmbGMPart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.lblDelphiPartNumber">
+	<summary>
+lblDelphiPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.btnFullList">
+	<summary>
+btnFullList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.lblSortOrder">
+	<summary>
+lblSortOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.Delphi_GM_Cross_Reference.dgPartNumberCrossReference">
+	<summary>
+dgPartNumberCrossReference control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblDisplay">
+	<summary>
+lblDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.hpkReturntoMain">
+	<summary>
+hpkReturntoMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.rfvSearchBy">
+	<summary>
+rfvSearchBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblSearchBy">
+	<summary>
+lblSearchBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.cmbSearchBy">
+	<summary>
+cmbSearchBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.rfvStart">
+	<summary>
+rfvStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblStart">
+	<summary>
+lblStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.txtStart">
+	<summary>
+txtStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.imgCalStartDate">
+	<summary>
+imgCalStartDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.StartCalendar">
+	<summary>
+StartCalendar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblEnd">
+	<summary>
+lblEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.txtEnd">
+	<summary>
+txtEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.imgCalEndDate">
+	<summary>
+imgCalEndDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.EndCalendar">
+	<summary>
+EndCalendar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblPlant">
+	<summary>
+lblPlant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.cmbPlant">
+	<summary>
+cmbPlant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lbDepartment">
+	<summary>
+lbDepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.cmbDepartment">
+	<summary>
+cmbDepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblShift">
+	<summary>
+lblShift control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.cmbShift">
+	<summary>
+cmbShift control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblMachines">
+	<summary>
+lblMachines control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.cmbMachineName">
+	<summary>
+cmbMachineName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lbPartNumber">
+	<summary>
+lbPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.txtPartNumber">
+	<summary>
+txtPartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.btnLookUp">
+	<summary>
+btnLookUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.txtMesToolId">
+	<summary>
+txtMesToolId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.txtMesPartId">
+	<summary>
+txtMesPartId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.tblResults">
+	<summary>
+tblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.btnExport">
+	<summary>
+btnExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblSortOrder">
+	<summary>
+lblSortOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.dgStandardPackHistory">
+	<summary>
+dgStandardPackHistory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Plant23_BEC.SerialNumber_Search.lblNoRecordsFound">
+	<summary>
+lblNoRecordsFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,13 @@
+11/15/2016 8:26:33 PM Error: Could not find a part of the path "C:\BEC_Kiosk\PCNames.xml".:mscorlib 
+     Parameters: None
+11/15/2016 8:26:33 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+11/15/2016 8:26:33 PM Error: Could not find a part of the path "C:\c$\Program Files\Delphi Packard Electric\BEC_SPL\AppConfig.xml".:mscorlib 
+     Parameters: None
+11/15/2016 8:26:33 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+11/15/2016 9:15:38 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "MES_PART_ID": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+11/15/2016 9:15:38 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Plant23_BEC", "http://localhost/Plant23_BEC/Plant23_BEC.vbproj", "{3114FC0A-22A7-492F-B41A-6D2996EA2622}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = http://localhost/Plant23_BEC/Plant23_BEC.vbproj
+		SccProjectName0 = \u0022$/Plant23_BEC.root/Plant23_BEC\u0022,\u0020BGCAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice0 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3114FC0A-22A7-492F-B41A-6D2996EA2622}.Debug.ActiveCfg = Debug|.NET
+		{3114FC0A-22A7-492F-B41A-6D2996EA2622}.Debug.Build.0 = Debug|.NET
+		{3114FC0A-22A7-492F-B41A-6D2996EA2622}.Release.ActiveCfg = Release|.NET
+		{3114FC0A-22A7-492F-B41A-6D2996EA2622}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

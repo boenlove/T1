@@ -1,0 +1,4 @@
+12/15/2006 11:03:06 AM Error: ORA-01847: day of month must be between 1 and last day of month:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+12/15/2006 11:03:06 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

@@ -1,0 +1,56 @@
+10/21/2005 10:23:12 AM Error: A field or property with the name 'TOOL_DESIGN_NBR' was not found on the selected datasource.:System.Web 
+     Parameters: None
+10/21/2005 10:23:12 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 10:26:38 AM Error: A field or property with the name 'TOOL_DESIGN_NBR' was not found on the selected datasource.:System.Web 
+     Parameters: None
+10/21/2005 10:26:38 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 10:30:23 AM Error: A field or property with the name 'TOOL_DESIGN_NBR' was not found on the selected datasource.:System.Web 
+     Parameters: None
+10/21/2005 10:30:23 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 11:12:49 AM Error: A field or property with the name 'TOOL_DESIGN_NBR' was not found on the selected datasource.:System.Web 
+     Parameters: None
+10/21/2005 11:12:49 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 3:53:14 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."SERIAL_NBR": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 3:53:14 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 3:54:22 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."SERIAL_NBR": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 3:54:22 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 3:55:02 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."SERIAL_NBR": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 3:55:02 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 3:55:17 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."SERIAL_NBR": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 3:55:17 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 4:04:20 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."SERIAL_NBR": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 4:04:20 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 4:31:29 PM Error: One or more errors occurred during processing of command.
+ORA-00907: missing right parenthesis:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 4:31:29 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 4:39:23 PM Error: One or more errors occurred during processing of command.
+ORA-00907: missing right parenthesis:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 4:39:23 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/21/2005 4:53:08 PM Error: Unspecified error
+ORA-01756: quoted string not properly terminated:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/21/2005 4:53:08 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

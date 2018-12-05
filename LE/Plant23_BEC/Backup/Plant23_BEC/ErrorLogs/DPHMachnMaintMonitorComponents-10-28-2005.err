@@ -1,0 +1,103 @@
+10/28/2005 10:32:14 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."COUNT": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 10:32:14 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 10:34:33 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."COUNT": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 10:34:33 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 10:34:52 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."COUNT": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 10:34:52 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 10:39:06 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."COUNT": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 10:39:06 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 10:41:02 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."COUNT": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 10:41:02 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 10:41:06 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."COUNT": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 10:41:06 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 10:56:29 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."COUNT": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 10:56:29 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:24:22 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:24:22 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:29:53 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:29:53 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:43:06 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:43:06 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:46:13 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:46:13 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:49:46 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:49:46 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:53:01 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:53:01 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:53:54 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:53:54 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:55:57 AM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 11:55:57 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 11:56:30 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."DISPOSITION_CODE": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 11:56:30 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 12:05:34 PM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 12:05:34 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 12:08:37 PM Error: Invalid attempt to Read when reader is closed.:System.Data 
+     Parameters: None
+10/28/2005 12:08:37 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 12:10:28 PM Error: ExecuteReader requires an open and available Connection. The connection's current state is Closed.:System.Data 
+     Parameters: None
+10/28/2005 12:10:28 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 12:18:10 PM Error: ExecuteReader requires an open and available Connection. The connection's current state is Open, Fetching.:System.Data 
+     Parameters: None
+10/28/2005 12:18:10 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 12:20:23 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."DISPOSITION_CODE": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 12:20:23 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 12:25:01 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."DISPOSITION_CODE": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 12:25:01 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/28/2005 12:29:54 PM Error: One or more errors occurred during processing of command.
+ORA-00904: "SP"."DISPOSITION_CODE": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/28/2005 12:29:54 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

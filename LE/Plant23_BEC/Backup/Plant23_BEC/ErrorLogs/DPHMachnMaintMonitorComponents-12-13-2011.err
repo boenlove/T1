@@ -1,0 +1,9 @@
+12/13/2011 2:23:45 PM Error: Unspecified error
+ORA-03113: end-of-file on communication channel:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+12/13/2011 2:23:45 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+12/13/2011 2:39:41 PM Error: ORA-29740: evicted by member , group incarnation :Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+12/13/2011 2:39:41 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

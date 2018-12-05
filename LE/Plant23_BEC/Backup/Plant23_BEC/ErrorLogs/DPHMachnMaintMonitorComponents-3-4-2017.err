@@ -1,0 +1,5 @@
+3/4/2017 12:20:45 PM Error: One or more errors occurred during processing of command.
+ORA-00911: invalid character:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+3/4/2017 12:20:45 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

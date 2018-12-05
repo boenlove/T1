@@ -1,0 +1,30 @@
+1/13/2009 7:44:45 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/13/2009 7:44:45 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/13/2009 7:45:00 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/13/2009 7:45:00 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/13/2009 7:45:36 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/13/2009 7:45:36 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/13/2009 7:46:45 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/13/2009 7:46:45 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/13/2009 7:46:48 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/13/2009 7:46:48 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/13/2009 7:46:50 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/13/2009 7:46:50 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

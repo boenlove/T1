@@ -1,0 +1,15 @@
+3/8/2006 11:09:02 AM Error: Logon failure: unknown user name or bad password.
+:mscorlib 
+     Parameters: None
+3/8/2006 11:09:02 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+3/8/2006 3:00:59 PM Error: Logon failure: unknown user name or bad password.
+:mscorlib 
+     Parameters: None
+3/8/2006 3:00:59 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+3/8/2006 3:01:04 PM Error: Logon failure: unknown user name or bad password.
+:mscorlib 
+     Parameters: None
+3/8/2006 3:01:04 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

@@ -1,0 +1,8 @@
+5/13/2008 2:08:49 PM Error: Could not find a part of the path "C:\BEC_Kiosk\PCNames.xml".:mscorlib 
+     Parameters: None
+5/13/2008 2:08:49 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+5/13/2008 2:08:49 PM Error: Could not find a part of the path "C:\c$\Program Files\Delphi Packard Electric\BEC_SPL\AppConfig.xml".:mscorlib 
+     Parameters: None
+5/13/2008 2:08:49 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

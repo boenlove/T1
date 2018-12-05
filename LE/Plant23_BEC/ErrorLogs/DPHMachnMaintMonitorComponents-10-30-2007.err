@@ -1,0 +1,17 @@
+10/30/2007 11:47:59 AM Error: Could not find a part of the path "C:\BEC_Kiosk\PCNames.xml".:mscorlib 
+     Parameters: None
+10/30/2007 11:47:59 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/30/2007 11:47:59 AM Error: Could not find a part of the path "C:\c$\Program Files\Delphi Packard Electric\BEC_SPL\AppConfig.xml".:mscorlib 
+     Parameters: None
+10/30/2007 11:47:59 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/30/2007 12:12:45 PM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+10/30/2007 12:12:45 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+10/30/2007 2:05:20 PM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+10/30/2007 2:05:20 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

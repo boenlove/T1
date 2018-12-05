@@ -1,0 +1,20 @@
+9/25/2014 10:54:15 AM Error: One or more errors occurred during processing of command.
+ORA-00933: SQL command not properly ended:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/25/2014 10:54:15 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/25/2014 10:54:32 AM Error: One or more errors occurred during processing of command.
+ORA-00933: SQL command not properly ended:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/25/2014 10:54:32 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/25/2014 10:54:43 AM Error: One or more errors occurred during processing of command.
+ORA-00933: SQL command not properly ended:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/25/2014 10:54:43 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+9/25/2014 10:54:48 AM Error: One or more errors occurred during processing of command.
+ORA-00933: SQL command not properly ended:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+9/25/2014 10:54:48 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

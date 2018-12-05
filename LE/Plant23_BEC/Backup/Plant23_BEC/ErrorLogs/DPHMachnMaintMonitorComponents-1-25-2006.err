@@ -1,0 +1,15 @@
+1/25/2006 8:44:58 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "SERIAL_NBR": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/25/2006 8:44:58 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/25/2006 8:46:26 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "PRODUCED_TMSTM": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/25/2006 8:46:26 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/25/2006 8:51:11 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "PRODUCED_TMSTM": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/25/2006 8:51:11 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

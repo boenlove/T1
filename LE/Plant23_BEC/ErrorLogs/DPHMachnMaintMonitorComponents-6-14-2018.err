@@ -1,0 +1,24 @@
+6/14/2018 9:06:36 PM Error: ORA-12154: TNS:could not resolve the connect identifier specified:OraOLEDB 
+     Parameters: None
+6/14/2018 9:06:36 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+6/14/2018 9:06:36 PM Error: ORA-12154: TNS:could not resolve the connect identifier specified:OraOLEDB 
+     Parameters: None
+6/14/2018 9:06:36 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+6/14/2018 9:06:36 PM Error: ORA-12154: TNS:could not resolve the connect identifier specified:OraOLEDB 
+     Parameters: None
+6/14/2018 9:06:36 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+6/14/2018 10:21:14 PM Error: ORA-12154: TNS:could not resolve the connect identifier specified:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+6/14/2018 10:21:14 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+6/14/2018 10:21:14 PM Error: ORA-12154: TNS:could not resolve the connect identifier specified:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+6/14/2018 10:21:14 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+6/14/2018 10:21:14 PM Error: ORA-12154: TNS:could not resolve the connect identifier specified:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+6/14/2018 10:21:14 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

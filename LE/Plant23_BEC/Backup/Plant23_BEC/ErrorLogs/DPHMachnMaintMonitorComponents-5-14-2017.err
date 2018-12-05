@@ -1,0 +1,12 @@
+5/14/2017 2:43:25 PM Error: ORA-12170: TNS:Connect timeout occurred:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+5/14/2017 2:43:25 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+5/14/2017 2:44:12 PM Error: ORA-12170: TNS:Connect timeout occurred:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+5/14/2017 2:44:12 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+5/14/2017 2:44:58 PM Error: ORA-12170: TNS:Connect timeout occurred:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+5/14/2017 2:44:58 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

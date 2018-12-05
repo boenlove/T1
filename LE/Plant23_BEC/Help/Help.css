@@ -1,0 +1,99 @@
+body         
+{ font-family: Arial; font-size: 10pt }
+
+h1
+{	font-size: 10pt;
+	font-family: Arial; font-weight:bold; margin-top:0; margin-bottom:0}
+
+.Text
+{	font-size: 9pt;
+	font-family: Arial;}
+
+Body
+{	font-size: 9pt;
+	font-family: Arial;}
+Tbody
+{	font-size: 9pt;
+	font-family: Arial;}
+	
+h2
+{	font-size: 9pt;
+    color: #004c7a;
+	font-family: Arial; font-weight:bold; margin-top:0; margin-bottom:0}
+
+.Help
+{	font-size: 9pt;
+	font-family: Arial; }
+
+li           
+{   font-family: Arial; font-size: 9pt; margin-top:0; }
+
+
+.HelpLink
+{	color: black;
+	font-family: Arial;
+	}
+	
+.HelpLink A:link
+{	color: #004c7a;
+	text-decoration: none;
+	font-family: Arial;
+	cursor: help;
+	background-color:#E4E4E4}
+	
+.HelpLink A:active 
+{	color: #004c7a;
+	text-decoration: underline;
+	font-family: Arial;
+	cursor: help;}
+	
+.HelpLink A:visited
+{
+	color: #004c7a;
+	font-family: Arial;
+	text-decoration: underline;
+	cursor: help;
+}	
+.HelpLink A:hover
+{
+	color: darkgoldenrod;
+	font-family: Arial;
+	text-decoration: none;
+	cursor: help;
+}
+.underline
+{	font-size: 9pt;
+	font-weight: bold;
+	border-bottom: #999999 1px solid;
+	font-family: Arial;}
+
+.underlineHome
+{
+	border-right: #3d3b3d 1px solid;
+	border-top: #3d3b3d 1px solid;
+	font-weight: bold;
+	font-size: 8pt;
+	border-left: #3d3b3d 1px solid;
+	border-bottom: #3d3b3d 1px solid;
+	font-family: Arial;
+	background-color: whitesmoke;
+}
+
+.Title
+{	font-weight: bold;
+	font-size: 10pt;
+	color: #3d3b3d;
+	font-family: Arial;}
+
+TD.content
+{	font-size: 9pt;
+	color: black;
+	font-family: Arial;
+	background-color: #e2e1e2;}
+	
+.Topic
+{	font-size: 9pt;
+	font-weight: bold;
+	color: #3d3b3d;
+	background-color: #e2e1e2;
+	font-family: Arial;}

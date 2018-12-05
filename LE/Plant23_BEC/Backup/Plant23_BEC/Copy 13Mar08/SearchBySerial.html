@@ -1,0 +1,593 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0039)http://usmsbrk-ap10/SearchBySerial.html -->
+<HTML><HEAD><TITLE>Search For Data</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>TABLE.a {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+BODY {
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonhighlight! important; SCROLLBAR-3DLIGHT-COLOR: black; SCROLLBAR-ARROW-COLOR: gray; SCROLLBAR-TRACK-COLOR: black; SCROLLBAR-DARKSHADOW-COLOR: threeddarkshadow! important
+}
+HTML {
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonhighlight! important; SCROLLBAR-3DLIGHT-COLOR: black; SCROLLBAR-ARROW-COLOR: gray; SCROLLBAR-TRACK-COLOR: black; SCROLLBAR-DARKSHADOW-COLOR: threeddarkshadow! important
+}
+SELECT {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: white; FONT-FAMILY: "Verdana","MS Sans Serif", "Arial"; BACKGROUND-COLOR: red
+}
+INPUT {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: white; FONT-FAMILY: "Verdana","MS Sans Serif", "Arial"; BACKGROUND-COLOR: #cccccc
+}
+FORM.TopGrey {
+	BACKGROUND: #616161; VERTICAL-ALIGN: top
+}
+FORM {
+	BACKGROUND: #c6eff7; VERTICAL-ALIGN: top
+}
+</STYLE>
+
+<SCRIPT language=JAVASCRIPT type=TEXT/JAVASCRIPT>
+            <!-- Hide script from old browsers    
+            //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+             function Rst() {
+                 now = new Date;
+                 document.SpecificDate.mo.options[now.getMonth()].selected = true;
+                 document.SpecificDate.dy.value = now.getDate();
+                 document.SpecificDate.yr.value=now.getYear();
+             }
+            //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            // End hiding script from old browsers -->            
+        </SCRIPT>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR></HEAD>
+<BODY>
+<TABLE class=a cellSpacing=0 cellPadding=0 width="62%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <FORM name=SpecificDate action=SearchByDate.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>Find Records by Date.</TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=mo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=dy>/Year(xxxx)<INPUT size=6 name=yr> </TD></TR>
+        <TR>
+          <TD colSpan=2>Accounting (Shift 2 = 7:00pm - 7am the next day)</TD></TR>
+        <TR>
+          <TD>Shift 1<INPUT type=checkbox value=1 name=shift1>Shift 2<INPUT 
+            type=checkbox value=1 name=shift2></TD></TR>
+        <TR>
+          <TD colSpan=2>Actual Day (12:00am - 7am AND 7:00pm - 12:00am the 
+            same day)</TD></TR>
+        <TR>
+          <TD>Shift 2<INPUT type=checkbox value=1 name=shift3></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch><INPUT onclick=Rst() type=button value=Reset name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <SCRIPT language=JAVASCRIPT type=TEXT/JAVASCRIPT>
+        <!-- Hide script from old browsers    
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+        now = new Date;
+        
+         document.SpecificDate.mo.options[now.getMonth()].selected = true;
+         if (now.getDate() < 10)
+         {
+             a = "0" + now.getDate();
+             document.SpecificDate.dy.value = a;
+         }
+         else
+         document.SpecificDate.dy.value = now.getDate();
+         document.SpecificDate.yr.value=now.getYear();
+         
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        // End hiding script from old browsers -->
+        </SCRIPT>
+
+      <FORM action=SearchBySerial.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>Serial Number</TD>
+          <TD><INPUT name=sn></TD></TR>
+        <TR>
+          <TD>Part Number</TD>
+          <TD><INPUT name=pn></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <FORM action=ProductionRunSN.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD colSpan=2>
+            <H5>Serial Numbers by Production Run</H5></TD></TR>
+        <TR>
+          <TD>Production Run</TD>
+          <TD><INPUT name=pr></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <FORM action=ToteStatus.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <H5>Tote Status</H5></TD></TR>
+        <TR>
+          <TD>Tote ID:</TD>
+          <TD><INPUT name=tn></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <FORM action=ToteHistory.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <H5><a name="ToteHistory">Tote History</a></H5></TD></TR>
+        <TR>
+          <TD>Tote ID:</TD>
+          <TD><INPUT name=tn></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <FORM name=OperatorProcessHistory action=EmployeeProcessHistory.asp 
+      method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <H5>Process History (Tumbling, Inspection, etc.)</H5></TD></TR>
+        <TR>
+          <TD>Employee ID:<INPUT name=EmpID></TD>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD>Start Date:<INPUT name=StartDate>End Date: <INPUT 
+          name=EndDate></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch><INPUT type=reset value="Clear Form" name=cmdReset></TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></FORM>
+      <FORM name=DailyProd action=DailyProduction.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <H5>Daily Production</H5>
+            <H6>Start Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=StartMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=StartDy>/Year(xxxx)<INPUT size=6 name=StartYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=StartHr></SELECT>:Minute(xx)<SELECT 
+            name=StartMin></SELECT>:00</TD></TR>
+        <TR>
+          <TD>
+            <H6>End Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=EndMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=EndDy>/Year(xxxx)<INPUT size=6 name=EndYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=EndHr></SELECT>:Minute(xx)<SELECT 
+            name=EndMin></SELECT>:00</TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <SCRIPT language=JAVASCRIPT type=TEXT/JAVASCRIPT>
+        <!-- Hide script from old browsers    
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+        now = new Date;
+        
+         document.DailyProd.StartMo.options[now.getMonth()].selected = true;
+         document.DailyProd.EndMo.options[now.getMonth()].selected = true;
+         if (now.getDate() < 10)
+         {
+             a = "0" + now.getDate();
+             document.DailyProd.StartDy.value = a;
+             document.DailyProd.EndDy.value = a;
+         }
+         else
+         {
+         document.DailyProd.StartDy.value = now.getDate();
+         document.DailyProd.EndDy.value = now.getDate();
+         }
+         document.DailyProd.StartYr.value=now.getYear();
+         document.DailyProd.EndYr.value=now.getYear();
+         
+         for(i=0;i<24;i++)
+         {
+            if (i < 10) {
+                document.DailyProd.StartHr[i] = new Option("0" + i)
+                document.DailyProd.EndHr[i] = new Option("0" + i)
+            }
+            else {
+                document.DailyProd.StartHr[i] = new Option(i)
+                document.DailyProd.EndHr[i] = new Option(i)
+              }
+          }//end for
+         for(i=0;i<60;i++)
+         {
+            if (i < 10) {
+                document.DailyProd.StartMin[i] = new Option("0" + i)
+                document.DailyProd.EndMin[i] = new Option("0" + i)
+            }
+            else {
+                document.DailyProd.StartMin[i] = new Option(i)
+                document.DailyProd.EndMin[i] = new Option(i)
+                }
+        }//end for
+        document.DailyProd.StartHr.options[0].selected = true;
+        document.DailyProd.StartMin.options[0].selected = true;
+        document.DailyProd.EndHr.options[23].selected = true;
+        document.DailyProd.EndMin.options[59].selected = true;
+         
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        // End hiding script from old browsers -->
+        </SCRIPT>
+    </TD></TR>
+  <TR>
+    <TD>
+      <FORM name=DailyProdOE action=DailyProductionOE.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <H5>Daily Production OE</H5>
+            <H6>Start Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=StartMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=StartDy>/Year(xxxx)<INPUT size=6 name=StartYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=StartHr></SELECT>:Minute(xx)<SELECT 
+            name=StartMin></SELECT>:00</TD></TR>
+        <TR>
+          <TD>
+            <H6>End Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=EndMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=EndDy>/Year(xxxx)<INPUT size=6 name=EndYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=EndHr></SELECT>:Minute(xx)<SELECT 
+            name=EndMin></SELECT>:00</TD></TR>
+        <TR>
+          <TD>Machine No:<SELECT name=MachNo></SELECT></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <SCRIPT language=JAVASCRIPT type=TEXT/JAVASCRIPT>
+        <!-- Hide script from old browsers    
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+        now = new Date;
+        
+         document.DailyProdOE.StartMo.options[now.getMonth()].selected = true;
+         document.DailyProdOE.EndMo.options[now.getMonth()].selected = true;
+         if (now.getDate() < 10)
+         {
+             a = "0" + now.getDate();
+             document.DailyProdOE.StartDy.value = a;
+             document.DailyProdOE.EndDy.value = a;
+         }
+         else
+         {
+         document.DailyProdOE.StartDy.value = now.getDate();
+         document.DailyProdOE.EndDy.value = now.getDate();
+         }
+         document.DailyProdOE.StartYr.value=now.getYear();
+         document.DailyProdOE.EndYr.value=now.getYear();
+         
+         for(i=0;i<24;i++)
+         {
+            if (i < 10) {
+                document.DailyProdOE.StartHr[i] = new Option("0" + i)
+                document.DailyProdOE.EndHr[i] = new Option("0" + i)
+            }
+            else {
+                document.DailyProdOE.StartHr[i] = new Option(i)
+                document.DailyProdOE.EndHr[i] = new Option(i)
+              }
+          }//end for
+         for(i=0;i<60;i++)
+         {
+            if (i < 10) {
+                document.DailyProdOE.StartMin[i] = new Option("0" + i)
+                document.DailyProdOE.EndMin[i] = new Option("0" + i)
+            }
+            else {
+                document.DailyProdOE.StartMin[i] = new Option(i)
+                document.DailyProdOE.EndMin[i] = new Option(i)
+                }
+        }//end for
+        document.DailyProdOE.StartHr.options[0].selected = true;
+        document.DailyProdOE.StartMin.options[0].selected = true;
+        document.DailyProdOE.EndHr.options[23].selected = true;
+        document.DailyProdOE.EndMin.options[59].selected = true;
+        
+        for(i=1;i<25;i++)
+            document.DailyProdOE.MachNo[i] = new Option("LSRM" + i)
+         
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        // End hiding script from old browsers -->
+        </SCRIPT>
+    </TD></TR>
+    <TR>
+    <TD>
+      <FORM name=LotTrace action=LotTrace.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <H5>LotTrace</H5>
+            <H6>Start Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=StartMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=StartDy>/Year(xxxx)<INPUT size=6 name=StartYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=StartHr></SELECT>:Minute(xx)<SELECT 
+            name=StartMin></SELECT>:00</TD></TR>
+        <TR>
+          <TD>
+            <H6>End Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=EndMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=EndDy>/Year(xxxx)<INPUT size=6 name=EndYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=EndHr></SELECT>:Minute(xx)<SELECT 
+            name=EndMin></SELECT>:00</TD></TR>
+        <tr>
+            <td>Omit Date Range:<input type="checkbox" name="OmitDate" value="1" /></td>
+        </tr>
+        <TR>
+          <TD>Machine No:<SELECT name=MachNo></SELECT></TD></TR>
+        <TR>
+        <tr>
+            <td>Shift:<select name="Shift"><option value="">Both</option><option value="137">AM</option><option value="138">PM</option></select></td>
+        </tr>
+        <tr>
+            <td>Production Run ID:<input type="text" name="ProdRun" value="" /></td>
+        </tr>
+        <tr>
+            <td>Lot Number:<input type="text" name="LotNbr" value="" /></td>
+        </tr>
+        <tr>
+            <td>Part Number:<input type="text" name="PartNo" value="" /></td>
+        </tr>
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <SCRIPT language=JAVASCRIPT type=TEXT/JAVASCRIPT>
+        <!-- Hide script from old browsers    
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+        now = new Date;
+        
+         document.LotTrace.StartMo.options[now.getMonth()].selected = true;
+         document.LotTrace.EndMo.options[now.getMonth()].selected = true;
+         if (now.getDate() < 10)
+         {
+             a = "0" + now.getDate();
+             document.LotTrace.StartDy.value = a;
+             document.LotTrace.EndDy.value = a;
+         }
+         else
+         {
+         document.LotTrace.StartDy.value = now.getDate();
+         document.LotTrace.EndDy.value = now.getDate();
+         }
+         document.LotTrace.StartYr.value=now.getYear();
+         document.LotTrace.EndYr.value=now.getYear();
+         
+         for(i=0;i<24;i++)
+         {
+            if (i < 10) {
+                document.LotTrace.StartHr[i] = new Option("0" + i)
+                document.LotTrace.EndHr[i] = new Option("0" + i)
+            }
+            else {
+                document.LotTrace.StartHr[i] = new Option(i)
+                document.LotTrace.EndHr[i] = new Option(i)
+              }
+          }//end for
+         for(i=0;i<60;i++)
+         {
+            if (i < 10) {
+                document.LotTrace.StartMin[i] = new Option("0" + i)
+                document.LotTrace.EndMin[i] = new Option("0" + i)
+            }
+            else {
+                document.LotTrace.StartMin[i] = new Option(i)
+                document.LotTrace.EndMin[i] = new Option(i)
+                }
+        }//end for
+        document.LotTrace.StartHr.options[0].selected = true;
+        document.LotTrace.StartMin.options[0].selected = true;
+        document.LotTrace.EndHr.options[23].selected = true;
+        document.LotTrace.EndMin.options[59].selected = true;
+        
+        for(i=1;i<25;i++)
+            document.LotTrace.MachNo[i] = new Option("LSRM" + i)
+         
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        // End hiding script from old browsers -->
+        </SCRIPT>
+    </TD>
+    </TR>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <TR>
+    <TD>
+      <FORM name=ToteScrap action=ToteScrap.asp method=get>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <H5>Tote Scrap</H5>
+            <H6>Start Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=StartMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=StartDy>/Year(xxxx)<INPUT size=6 name=StartYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=StartHr></SELECT>:Minute(xx)<SELECT 
+            name=StartMin></SELECT>:00</TD></TR>
+        <TR>
+          <TD>
+            <H6>End Date</H6></TD></TR>
+        <TR>
+          <TD>Month(xx)<SELECT name=EndMo> <OPTION value=01 
+              selected>January</OPTION> <OPTION value=02>February</OPTION> 
+              <OPTION value=03>March</OPTION> <OPTION value=04>April</OPTION> 
+              <OPTION value=05>May</OPTION> <OPTION value=06>June</OPTION> 
+              <OPTION value=07>July</OPTION> <OPTION value=08>August</OPTION> 
+              <OPTION value=09>September</OPTION> <OPTION 
+              value=10>October</OPTION> <OPTION value=11>November</OPTION> 
+              <OPTION value=12>December</OPTION> <OPTION 
+            value=All>All</OPTION></SELECT> /Day(xx)<INPUT size=6 
+            name=EndDy>/Year(xxxx)<INPUT size=6 name=EndYr> </TD></TR>
+        <TR>
+          <TD>Hour(xx)<SELECT name=EndHr></SELECT>:Minute(xx)<SELECT 
+            name=EndMin></SELECT>:00</TD></TR>
+        <tr>
+            <td>Omit Date Range:<input type="checkbox" name="OmitDate" value="1" /></td>
+        </tr>       
+           
+          <TD><INPUT type=submit value=Search name=cmdSearch></TD>
+          <TD><INPUT type=reset value="Clear Form" name=cmdReset></TD></TR></TBODY></TABLE></FORM>
+      <SCRIPT language=JAVASCRIPT type=TEXT/JAVASCRIPT>
+        <!-- Hide script from old browsers    
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+        now = new Date;
+        
+         document.ToteScrap.StartMo.options[now.getMonth()].selected = true;
+         document.ToteScrap.EndMo.options[now.getMonth()].selected = true;
+         if (now.getDate() < 10)
+         {
+             a = "0" + now.getDate();
+             document.ToteScrap.StartDy.value = a;
+             document.ToteScrap.EndDy.value = a;
+         }
+         else
+         {
+         document.ToteScrap.StartDy.value = now.getDate();
+         document.ToteScrap.EndDy.value = now.getDate();
+         }
+         document.ToteScrap.StartYr.value=now.getYear();
+         document.ToteScrap.EndYr.value=now.getYear();
+         
+         for(i=0;i<24;i++)
+         {
+            if (i < 10) {
+                document.ToteScrap.StartHr[i] = new Option("0" + i)
+                document.ToteScrap.EndHr[i] = new Option("0" + i)
+            }
+            else {
+                document.ToteScrap.StartHr[i] = new Option(i)
+                document.ToteScrap.EndHr[i] = new Option(i)
+              }
+          }//end for
+         for(i=0;i<60;i++)
+         {
+            if (i < 10) {
+                document.ToteScrap.StartMin[i] = new Option("0" + i)
+                document.ToteScrap.EndMin[i] = new Option("0" + i)
+            }
+            else {
+                document.ToteScrap.StartMin[i] = new Option(i)
+                document.ToteScrap.EndMin[i] = new Option(i)
+                }
+        }//end for
+        document.ToteScrap.StartHr.options[0].selected = true;
+        document.ToteScrap.StartMin.options[0].selected = true;
+        document.ToteScrap.EndHr.options[23].selected = true;
+        document.ToteScrap.EndMin.options[59].selected = true;
+        
+        for(i=1;i<25;i++)
+            document.ToteScrap.MachNo[i] = new Option("LSRM" + i)
+         
+        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        // End hiding script from old browsers -->
+        </SCRIPT>
+    </TD>
+    </TR>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <TR>
+    <TD><A 
+href="http://usmsbrk-ap10/default.html">Home</A></TD></TR></TBODY></TABLE></BODY></HTML>

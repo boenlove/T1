@@ -1,0 +1,32 @@
+2/2/2014 8:27:18 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:27:18 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+2/2/2014 8:27:34 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:27:34 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+2/2/2014 8:27:39 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:27:39 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+2/2/2014 8:29:44 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:29:44 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+2/2/2014 8:30:41 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:30:41 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+2/2/2014 8:31:38 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:31:38 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+2/2/2014 8:32:35 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:32:35 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+2/2/2014 8:33:32 AM Error: ORA-12545: Connect failed because target host or object does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+2/2/2014 8:33:32 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

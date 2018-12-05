@@ -1,0 +1,5 @@
+12/2/2005 7:55:24 AM Error: One or more errors occurred during processing of command.
+ORA-00921: unexpected end of SQL command:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+12/2/2005 7:55:24 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

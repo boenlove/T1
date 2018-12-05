@@ -1,0 +1,4 @@
+1/12/2015 3:44:50 PM Error: Cast from string "23222841010065U2210652" to type 'Double' is not valid.:Microsoft.VisualBasic 
+     Parameters: None
+1/12/2015 3:44:50 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

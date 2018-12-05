@@ -1,0 +1,24 @@
+1/18/2006 8:36:57 AM Error: The ConnectionString property has not been initialized.:System.Data 
+     Parameters: None
+1/18/2006 8:36:57 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/18/2006 8:37:57 AM Error: The ConnectionString property has not been initialized.:System.Data 
+     Parameters: None
+1/18/2006 8:37:57 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/18/2006 8:38:16 AM Error: The ConnectionString property has not been initialized.:System.Data 
+     Parameters: None
+1/18/2006 8:38:16 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/18/2006 8:38:48 AM Error: The ConnectionString property has not been initialized.:System.Data 
+     Parameters: None
+1/18/2006 8:38:48 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/18/2006 8:40:10 AM Error: The connection is already Open (state=Open, Fetching).:System.Data 
+     Parameters: None
+1/18/2006 8:40:10 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/18/2006 8:41:01 AM Error: The connection is already Open (state=Open, Fetching).:System.Data 
+     Parameters: None
+1/18/2006 8:41:01 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

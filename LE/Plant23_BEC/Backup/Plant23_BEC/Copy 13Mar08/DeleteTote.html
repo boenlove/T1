@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <style TYPE="text/css">
+            table.a{border:1px solid black;}
+        </style>  
+        <SCRIPT LANGUAGE="JAVASCRIPT" TYPE="TEXT/JAVASCRIPT">
+            <!-- Hide script from old browsers    
+            //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+             function CheckTote(tote) {
+                a = tote.tn.value
+                
+                 if(a.charAt(0) != "P" && a.charAt(1) != "T")
+                 {
+                    alert("Invalid Tote ID");
+                    tote.tn.focus();
+                    tote.tn.select();
+                    return false;
+                 }
+                
+                 b = "";
+                 for(i = 2;i < a.length; i++)
+                    b = b  + a.charAt(i);
+                 tote.tn.value = b;
+                 return true;
+             }                        
+                          
+            //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            // End hiding script from old browsers -->            
+        </SCRIPT>
+        <title>Delete Tote</title>             
+    </head>
+    <body>  
+    <table border="0" width="62%"  align="center" cellpadding="0" cellspacing="0" class="a">
+        <tr>
+           <td>
+        
+       <form onSubmit="return CheckTote(this)" action="DeleteTote.asp" method="get" name="tote"> 
+            <table>
+                <tr>
+                    <td><h5>Delete Tote</h5></td>
+                </tr>
+                <tr>
+                    <td>Tote ID (PT):</td><td><input type="text" name="tn" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="cmdSearch" value="Delete" /></td><td><input type="reset" name="cmdReset" value="Clear Form" /></td>
+                </tr>
+            </table>
+        </form>
+        <SCRIPT LANGUAGE="JAVASCRIPT" TYPE="TEXT/JAVASCRIPT">
+            <!-- Hide script from old browsers    
+            //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+             document.tote.tn.focus();
+             document.tote.tn.select();             
+            //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            // End hiding script from old browsers -->            
+        </SCRIPT>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="default.html">Home</a></td>
+    </tr>
+    </table>
+    </body>
+</html>

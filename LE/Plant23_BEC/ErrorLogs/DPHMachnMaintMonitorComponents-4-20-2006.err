@@ -1,0 +1,10 @@
+4/20/2006 1:07:26 PM Error: Table does not exist.
+ORA-00942: table or view does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+4/20/2006 1:07:26 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+4/20/2006 1:08:06 PM Error: One or more errors occurred during processing of command.
+ORA-00918: column ambiguously defined:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+4/20/2006 1:08:06 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <menu>
+ <!--<menuItem>
+  <text>Available Sites</text> 
+<subMenu>-->
+ <menuItem>
+  <text>BEC Setup</text> 
+  <url>Control=BEC_Setup.aspx</url> 
+  </menuItem>
+  <menuItem>
+  <text>BEC Data Loader</text> 
+  <url>Control=BEC_Data_Loader.aspx</url> 
+  </menuItem>
+  <menuItem>
+  <text>BEC Data Deleter</text> 
+  <url>Control=BEC_Data_Deleter.aspx</url> 
+  </menuItem>
+  <menuItem>
+  <text>BEC Add Production Run</text> 
+  <url>Control=BEC_ProductionRun.aspx</url> 
+  </menuItem>
+  <menuItem>
+  <text>BEC Update Production Run</text> 
+  <url>Control=BEC_UpdateProductionRun.aspx</url> 
+  </menuItem>
+ <menuItem>
+  <text>BEC Ship Destination</text> 
+  <url>Control=BEC_Ship_Destination.aspx</url> 
+  </menuItem>
+   <menuItem>
+  <text>BEC Ship Destination All Users</text> 
+  <url>Control=BEC_Ship_Destination_All_Users.aspx</url> 
+  </menuItem>
+  <menuItem>
+  <text>BEC Part Line Restriction</text> 
+  <url>Control=BEC_Part_Line_Restriction.aspx</url> 
+  </menuItem> 
+  <menuItem>
+  <text>BEC Part Line Restriction Deleter</text> 
+  <url>Control=BEC_Part_Line_Restriction_Deleter.aspx</url> 
+  </menuItem> 
+  <menuItem>
+  <text>BEC Serial Numbers</text> 
+  <url>Control=BEC_SerialNumbers.aspx</url> 
+  </menuItem>
+ <menuItem>
+  <text>BEC Generic Serial Numbers</text> 
+  <url>Control=BEC_Generic_SerialNumbers.aspx</url> 
+  </menuItem>
+ <menuItem>
+  <text>Serial Number Search</text> 
+  <url>Control=SerialNumber_Search.aspx</url> 
+  </menuItem> 
+ <menuItem>
+  <text>Delphi/GM Cross Reference</text> 
+  <url>Control=Delphi_GM_Cross_Reference.aspx</url> 
+  </menuItem>
+     <menuItem>
+  <text>Help</text> 
+  <url>http://usmscli-dev01/Plant23_BEC/Help/BEC WEB PROGRAM INSTRUCTIONS.htm</url> 
+  </menuItem>
+  <!--</subMenu>
+  </menuItem>-->
+  </menu>

@@ -1,0 +1,5 @@
+7/19/2006 8:54:42 AM Error: One or more errors occurred during processing of command.
+ORA-00904: "STANDARD_PACK_ID": invalid identifier:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+7/19/2006 8:54:42 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>11.0.61219</ProductVersion>
+    <SchemaVersion>4.5</SchemaVersion>
+    <ProjectGuid>{3114FC0A-22A7-492F-B41A-6D2996EA2622}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>Plant23_BEC</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Plant23_BEC</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccAuxPath />
+    <SccProvider />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Plant23_BEC.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Plant23_BEC.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <Reference Include="Encryption">
+      <Name>Encryption</Name>
+      <HintPath>Plant19WEB\bin\Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ORADCLib">
+      <Name>Interop.ORADCLib</Name>
+      <HintPath>bin\Interop.ORADCLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>packages\Oracle.ManagedDataAccess.12.2.1100\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="skmMenu">
+      <Name>skmMenu</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient">
+      <Name>System.Data.OracleClient</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BEC_Data_Deleter.aspx.designer.vb">
+      <DependentUpon>BEC_Data_Deleter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Data_Deleter.aspx.vb">
+      <DependentUpon>BEC_Data_Deleter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_Data_Loader.aspx.designer.vb">
+      <DependentUpon>BEC_Data_Loader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Data_Loader.aspx.vb">
+      <DependentUpon>BEC_Data_Loader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_Generic_SerialNumbers.aspx.designer.vb">
+      <DependentUpon>BEC_Generic_SerialNumbers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Generic_SerialNumbers.aspx.vb">
+      <DependentUpon>BEC_Generic_SerialNumbers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_INFO.asmx.vb">
+      <DependentUpon>BEC_INFO.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BEC_Part_Line_Restriction.aspx.designer.vb">
+      <DependentUpon>BEC_Part_Line_Restriction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Part_Line_Restriction.aspx.vb">
+      <DependentUpon>BEC_Part_Line_Restriction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_Part_Line_Restriction_Deleter.aspx.designer.vb">
+      <DependentUpon>BEC_Part_Line_Restriction_Deleter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Part_Line_Restriction_Deleter.aspx.vb">
+      <DependentUpon>BEC_Part_Line_Restriction_Deleter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_ProductionRun.aspx.designer.vb">
+      <DependentUpon>BEC_ProductionRun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_ProductionRun.aspx.vb">
+      <DependentUpon>BEC_ProductionRun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_SAP_Forecast_Summary.aspx.designer.vb">
+      <DependentUpon>BEC_SAP_Forecast_Summary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_SAP_Forecast_Summary.aspx.vb">
+      <DependentUpon>BEC_SAP_Forecast_Summary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_Security_Denied.aspx.designer.vb">
+      <DependentUpon>BEC_Security_Denied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Security_Denied.aspx.vb">
+      <DependentUpon>BEC_Security_Denied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_SerialNumberAvailability.aspx.designer.vb">
+      <DependentUpon>BEC_SerialNumberAvailability.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_SerialNumberAvailability.aspx.vb">
+      <DependentUpon>BEC_SerialNumberAvailability.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_SerialNumbers.aspx.designer.vb">
+      <DependentUpon>BEC_SerialNumbers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_SerialNumbers.aspx.vb">
+      <DependentUpon>BEC_SerialNumbers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_Setup.aspx.designer.vb">
+      <DependentUpon>BEC_Setup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Setup.aspx.vb">
+      <DependentUpon>BEC_Setup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_Ship_Destination.aspx.designer.vb">
+      <DependentUpon>BEC_Ship_Destination.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Ship_Destination.aspx.vb">
+      <DependentUpon>BEC_Ship_Destination.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_Ship_Destination_All_Users.aspx.designer.vb">
+      <DependentUpon>BEC_Ship_Destination_All_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_Ship_Destination_All_Users.aspx.vb">
+      <DependentUpon>BEC_Ship_Destination_All_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BEC_UpdateProductionRun.aspx.designer.vb">
+      <DependentUpon>BEC_UpdateProductionRun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BEC_UpdateProductionRun.aspx.vb">
+      <DependentUpon>BEC_UpdateProductionRun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Cntrl_Footer.ascx.designer.vb">
+      <DependentUpon>Cntrl_Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Cntrl_Footer.ascx.vb">
+      <DependentUpon>Cntrl_Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Cntrl_Header.ascx.designer.vb">
+      <DependentUpon>Cntrl_Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Cntrl_Header.ascx.vb">
+      <DependentUpon>Cntrl_Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Cntrl_Menu.ascx.designer.vb">
+      <DependentUpon>Cntrl_Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Cntrl_Menu.ascx.vb">
+      <DependentUpon>Cntrl_Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Common.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DatePicker.aspx.designer.vb">
+      <DependentUpon>DatePicker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DatePicker.aspx.vb">
+      <DependentUpon>DatePicker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Delphi_GM_Cross_Reference.aspx.designer.vb">
+      <DependentUpon>Delphi_GM_Cross_Reference.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Delphi_GM_Cross_Reference.aspx.vb">
+      <DependentUpon>Delphi_GM_Cross_Reference.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportSerialHistory.aspx.designer.vb">
+      <DependentUpon>ExportSerialHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportSerialHistory.aspx.vb">
+      <DependentUpon>ExportSerialHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kiosk_ConfigFile_AdminCode_Update.aspx.designer.vb">
+      <DependentUpon>Kiosk_ConfigFile_AdminCode_Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk_ConfigFile_AdminCode_Update.aspx.vb">
+      <DependentUpon>Kiosk_ConfigFile_AdminCode_Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kiosk_ConfigFile_Update.aspx.designer.vb">
+      <DependentUpon>Kiosk_ConfigFile_Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk_ConfigFile_Update.aspx.vb">
+      <DependentUpon>Kiosk_ConfigFile_Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lot_History.aspx.designer.vb">
+      <DependentUpon>Lot_History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lot_History.aspx.vb">
+      <DependentUpon>Lot_History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Plant23HeaderControl.ascx.designer.vb">
+      <DependentUpon>Plant23HeaderControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Plant23HeaderControl.ascx.vb">
+      <DependentUpon>Plant23HeaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAP_BEC_LabelRequest_MATID.aspx.designer.vb">
+      <DependentUpon>SAP_BEC_LabelRequest_MATID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SAP_BEC_LabelRequest_MATID.aspx.vb">
+      <DependentUpon>SAP_BEC_LabelRequest_MATID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAP_MATID_Inquiry.aspx.designer.vb">
+      <DependentUpon>SAP_MATID_Inquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SAP_MATID_Inquiry.aspx.vb">
+      <DependentUpon>SAP_MATID_Inquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAP_MATID_Request.aspx.designer.vb">
+      <DependentUpon>SAP_MATID_Request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SAP_MATID_Request.aspx.vb">
+      <DependentUpon>SAP_MATID_Request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SerialNumber_Search.aspx.designer.vb">
+      <DependentUpon>SerialNumber_Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SerialNumber_Search.aspx.vb">
+      <DependentUpon>SerialNumber_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Serial_History.aspx.designer.vb">
+      <DependentUpon>Serial_History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Serial_History.aspx.vb">
+      <DependentUpon>Serial_History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="BEC_Data_Deleter.aspx" />
+    <Content Include="BEC_Data_Loader.aspx" />
+    <Content Include="BEC_Generic_SerialNumbers.aspx" />
+    <Content Include="BEC_INFO.asmx" />
+    <Content Include="BEC_Part_Line_Restriction.aspx" />
+    <Content Include="BEC_Part_Line_Restriction_Deleter.aspx" />
+    <Content Include="BEC_ProductionRun.aspx" />
+    <Content Include="BEC_SAP_Forecast_Summary.aspx" />
+    <Content Include="BEC_Security_Denied.aspx" />
+    <Content Include="BEC_SerialNumberAvailability.aspx" />
+    <Content Include="BEC_SerialNumbers.aspx" />
+    <Content Include="BEC_Setup.aspx" />
+    <Content Include="BEC_Ship_Destination.aspx" />
+    <Content Include="BEC_Ship_Destination_All_Users.aspx" />
+    <Content Include="BEC_UpdateProductionRun.aspx" />
+    <Content Include="Common\Cntrl_Footer.ascx" />
+    <Content Include="Common\Cntrl_Header.ascx" />
+    <Content Include="Common\Cntrl_Menu.ascx" />
+    <Content Include="Common\MFG_Style.css" />
+    <Content Include="Common\Styles.css" />
+    <Content Include="Copy of Menu_Items.xml" />
+    <Content Include="Data\usp_GetPartsFromSchedulePool.sql" />
+    <Content Include="date-picker.js" />
+    <Content Include="DatePicker.aspx" />
+    <Content Include="Delphi_GM_Cross_Reference.aspx" />
+    <Content Include="ExportSerialHistory.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\AccessDenied.jpg" />
+    <Content Include="Images\arrow.gif" />
+    <Content Include="Images\Arrow_Gray.gif" />
+    <Content Include="Images\Arrow_Yellow.gif" />
+    <Content Include="Images\Bar.jpg" />
+    <Content Include="Images\BottomCorner.gif" />
+    <Content Include="Images\calendar.gif" />
+    <Content Include="Images\Calendar.jpg" />
+    <Content Include="Images\checkmarkcircle.jpeg" />
+    <Content Include="Images\Collapse.jpg" />
+    <Content Include="Images\Delphi_Bullet.gif" />
+    <Content Include="Images\Delphi_HDivider.jpg" />
+    <Content Include="Images\Delphi_top_logo.gif" />
+    <Content Include="Images\Delphi_VertDivider.gif" />
+    <Content Include="Images\Divider.jpg" />
+    <Content Include="Images\Expand.jpg" />
+    <Content Include="Images\Icon_Error.gif" />
+    <Content Include="Images\line_horizontal.gif" />
+    <Content Include="Images\Lock.jpg" />
+    <Content Include="Images\P19_Logo.jpg" />
+    <Content Include="Images\Search.jpg" />
+    <Content Include="Images\SecurityRequest.jpg" />
+    <Content Include="Images\ToolBox.jpg" />
+    <Content Include="Images\View.gif" />
+    <Content Include="Index.aspx" />
+    <Content Include="Kiosk_ConfigFile_AdminCode_Update.aspx" />
+    <Content Include="Kiosk_ConfigFile_Update.aspx" />
+    <Content Include="Lot_History.aspx" />
+    <Content Include="Menu_Items.xml" />
+    <Content Include="Plant23HeaderControl.ascx" />
+    <Content Include="SAP_BEC_LabelRequest_MATID.aspx" />
+    <Content Include="SAP_MATID_Inquiry.aspx" />
+    <Content Include="SAP_MATID_Request.aspx" />
+    <Content Include="SerialNumber_Search.aspx" />
+    <Content Include="Serial_History.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="BEC_Data_Deleter.aspx.resx">
+      <DependentUpon>BEC_Data_Deleter.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Data_Loader.aspx.resx">
+      <DependentUpon>BEC_Data_Loader.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Generic_SerialNumbers.aspx.resx">
+      <DependentUpon>BEC_Generic_SerialNumbers.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_INFO.asmx.resx">
+      <DependentUpon>BEC_INFO.asmx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Part_Line_Restriction.aspx.resx">
+      <DependentUpon>BEC_Part_Line_Restriction.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Part_Line_Restriction_Deleter.aspx.resx">
+      <DependentUpon>BEC_Part_Line_Restriction_Deleter.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_ProductionRun.aspx.resx">
+      <DependentUpon>BEC_ProductionRun.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_SAP_Forecast_Summary.aspx.resx">
+      <DependentUpon>BEC_SAP_Forecast_Summary.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Security_Denied.aspx.resx">
+      <DependentUpon>BEC_Security_Denied.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_SerialNumberAvailability.aspx.resx">
+      <DependentUpon>BEC_SerialNumberAvailability.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_SerialNumbers.aspx.resx">
+      <DependentUpon>BEC_SerialNumbers.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Setup.aspx.resx">
+      <DependentUpon>BEC_Setup.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Ship_Destination.aspx.resx">
+      <DependentUpon>BEC_Ship_Destination.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_Ship_Destination_All_Users.aspx.resx">
+      <DependentUpon>BEC_Ship_Destination_All_Users.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEC_UpdateProductionRun.aspx.resx">
+      <DependentUpon>BEC_UpdateProductionRun.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Cntrl_Footer.ascx.resx">
+      <DependentUpon>Cntrl_Footer.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Cntrl_Header.ascx.resx">
+      <DependentUpon>Cntrl_Header.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Cntrl_Menu.ascx.resx">
+      <DependentUpon>Cntrl_Menu.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatePicker.aspx.resx">
+      <DependentUpon>DatePicker.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delphi_GM_Cross_Reference.aspx.resx">
+      <DependentUpon>Delphi_GM_Cross_Reference.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportSerialHistory.aspx.resx">
+      <DependentUpon>ExportSerialHistory.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index.aspx.resx">
+      <DependentUpon>Index.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk_ConfigFile_AdminCode_Update.aspx.resx">
+      <DependentUpon>Kiosk_ConfigFile_AdminCode_Update.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk_ConfigFile_Update.aspx.resx">
+      <DependentUpon>Kiosk_ConfigFile_Update.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lot_History.aspx.resx">
+      <DependentUpon>Lot_History.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plant23HeaderControl.ascx.resx">
+      <DependentUpon>Plant23HeaderControl.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAP_BEC_LabelRequest_MATID.aspx.resx">
+      <DependentUpon>SAP_BEC_LabelRequest_MATID.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAP_MATID_Inquiry.aspx.resx">
+      <DependentUpon>SAP_MATID_Inquiry.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAP_MATID_Request.aspx.resx">
+      <DependentUpon>SAP_MATID_Request.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialNumber_Search.aspx.resx">
+      <DependentUpon>SerialNumber_Search.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serial_History.aspx.resx">
+      <DependentUpon>Serial_History.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Images\Thumbs.db" />
+    <None Include="Images\vssver.scc" />
+    <None Include="mssccprj.scc" />
+    <Content Include="packages.config" />
+    <None Include="vssver.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57286</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Plant23_BEC</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <menu>
+ <menuItem>
+ <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Setup</text> 
+  <url>BEC_Setup.aspx</url>
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Data Loader</text> 
+  <url>BEC_Data_Loader.aspx</url>
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Data Deleter</text> 
+  <url>BEC_Data_Deleter.aspx</url>
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Add Production Run</text> 
+  <url>BEC_ProductionRun.aspx</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Update Production Run</text> 
+  <url>BEC_UpdateProductionRun.aspx</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+ <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Ship Destination</text> 
+  <url>BEC_Ship_Destination.aspx</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+   <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Ship Destination All Users</text> 
+  <url>BEC_Ship_Destination_All_Users.aspx</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Part Line Restriction</text> 
+  <url>BEC_Part_Line_Restriction.aspx#PageFrame</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem> 
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Part Line Restriction Deleter</text> 
+  <url>BEC_Part_Line_Restriction_Deleter.aspx#PageFrame</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem> 
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Serial Numbers</text> 
+  <url>BEC_SerialNumbers.aspx#PageFrame</url> 
+ <!--<target>HomeFrame</target>-->
+  </menuItem>
+ <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;BEC Generic Serial Numbers</text> 
+  <url>BEC_Generic_SerialNumbers.aspx#PageFrame</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+ <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;Serial Number Search</text> 
+  <url>SerialNumber_Search.aspx#PageFrame</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <!--Added 03/03/2008 -->
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;SAP Forecast Summary</text> 
+  <url>BEC_SAP_Forecast_Summary.aspx#PageFrame</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;Delphi/GM Cross Reference</text> 
+  <url>Delphi_GM_Cross_Reference.aspx#PageFrame</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;SAP Label Request</text> 
+  <url>SAP_BEC_LabelRequest_MATID.aspx</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;SAP MATID Maintenance</text> 
+  <url>SAP_MATID_Request.aspx</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;SAP MATID Inquiry</text> 
+  <url>SAP_MATID_Inquiry.aspx</url> 
+  <!--<target>HomeFrame</target>-->
+  </menuItem>
+
+  <menuItem>
+  <text>&lt;img src="Images/Delphi_Bullet.gif" align="absmiddle"&gt;Help</text> 
+  <url>Help/BEC WEB PROGRAM INSTRUCTIONS.htm</url> 
+  </menuItem>
+  </menu>

@@ -1,0 +1,4 @@
+10/25/2005 1:23:17 PM Error: DataBinder.Eval: 'System.Data.Common.DbDataRecord' does not contain a property with the name SHIFT_ID.:System.Web 
+     Parameters: None
+10/25/2005 1:23:17 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

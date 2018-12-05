@@ -1,0 +1,14 @@
+1/19/2006 8:49:03 AM Error: The connection is already Open (state=Open).:System.Data 
+     Parameters: None
+1/19/2006 8:49:03 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/19/2006 8:50:50 AM Error: Permission denied.
+ORA-01031: insufficient privileges:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/19/2006 8:50:50 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+1/19/2006 8:56:28 AM Error: Table does not exist.
+ORA-00942: table or view does not exist:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+1/19/2006 8:56:28 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

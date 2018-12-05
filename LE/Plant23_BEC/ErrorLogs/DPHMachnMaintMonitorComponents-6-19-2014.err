@@ -1,0 +1,13 @@
+6/19/2014 6:53:56 AM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+6/19/2014 6:53:56 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+6/19/2014 9:47:21 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+6/19/2014 9:47:21 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+6/19/2014 2:00:50 PM Error: Thread was being aborted.:mscorlib 
+     Parameters: None
+6/19/2014 2:00:50 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

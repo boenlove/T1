@@ -1,0 +1,5 @@
+8/11/2014 9:19:09 AM Error: One or more errors occurred during processing of command.
+ORA-00936: missing expression:Microsoft OLE DB Provider for Oracle 
+     Parameters: None
+8/11/2014 9:19:09 AM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None

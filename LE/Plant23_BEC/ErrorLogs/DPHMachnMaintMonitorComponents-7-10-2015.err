@@ -1,0 +1,8 @@
+7/10/2015 2:41:11 PM Error: Cast from string "6/15/2015" to type 'Double' is not valid.:Microsoft.VisualBasic 
+     Parameters: None
+7/10/2015 2:41:11 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
+7/10/2015 2:51:07 PM Error: Cast from string "23285569011685u1105257" to type 'Double' is not valid.:Microsoft.VisualBasic 
+     Parameters: None
+7/10/2015 2:51:07 PM Error: Must specify value for source.:Common:LogEvent:System 
+     Parameters: None
